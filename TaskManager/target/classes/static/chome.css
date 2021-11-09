@@ -1,0 +1,159 @@
+
+		table {
+		  border-collapse: collapse;
+		  margin: auto;
+		  font-size: 0.9em;
+		  width:80%;
+		  border-radius: 10px;
+		  overflow: hidden;
+		  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+		  left:20px;
+		  right:20px;
+		}
+		table thead tr {
+		  background-color: #009879;
+		  color: #ffffff;
+		  text-align: center;
+		  font-weight: bold;
+		}
+		table th,
+		table td {
+		  padding: 12px 15px;
+		  text-align: center;
+		}
+		
+		table tbody tr {
+		  border-bottom: 1px solid #dddddd;
+		}
+		
+		table tbody tr:last-of-type {
+		  border-bottom: 5px solid #009879;
+		}
+		
+		tr:hover{
+			background-color: #00e6b8;
+			transform: scale(1.02);
+			box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+		}
+		
+		@media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+    
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+				/* 			NAVIGATION BAR  			*/
+.topnav {
+  overflow: hidden;
+  background-color:#2691d9;
+  margin:auto;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #0080c0;
+  
+}
+
+.topnav a.active {
+  background-color: #0080c0;
+  color: white;
+}
+
+ /* Submit */
+
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  
+  
+  width: 40%;
+  display: inline-block;
+  margin-left:20px;
+}
+input[type="submit"]:hover{
+  border-color: #2691d9;
+  transition: .5s;
+}
+
+input[value="Save"]{
+	background: #2691d9;
+}
+input[value="Cancel"]{
+	background: #808080;
+}
+/* Submit */
+
+/* popup styling */
+.bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+/* popup styling */

@@ -1,5 +1,7 @@
 package com.training.TaskManager.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -22,6 +24,14 @@ public class EmployeeService implements EmployeeServiceInterface{
 		repo.save(emp);
 	}
 
+
+
+	@Override
+	public List<EmployeeInfo> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return repo.findAll();
+	}
+	
 	/*
 	@Override
 	public EmployeeInfo findByEmail(String email) {
