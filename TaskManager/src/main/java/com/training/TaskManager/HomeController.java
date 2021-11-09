@@ -4,13 +4,17 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.ManagerInfo;
+import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.service.EmployeeService;
 import com.training.TaskManager.service.ManagerService;
+import com.training.TaskManager.service.TaskService;
 
 @Controller
 public class HomeController 
@@ -27,6 +31,9 @@ public class HomeController
 	
 	@Autowired
 	ManagerService mservice;
+	
+	@Autowired
+	TaskService tservice;
 	
 	@RequestMapping("/")
 	public String employeeLogin()
@@ -81,9 +88,18 @@ public class HomeController
 	}
 	
 	@RequestMapping("/tregister")
-	public String registerTask()
+	public String registerTask(Model m)
 	{
-		List<EmployeeInfo> empdata;
-		return "taskpage";
+		List<EmployeeInfo> empdata = eservice.getAllEmployees();
+		m.addAttribute("empdata", empdata);
+		return "tcreate";
+	}
+	
+	@RequestMapping("/createtask")
+	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate) throws Exception
+	{
+		System.out.println(Enddate);
+		tservice.saveOrUpdate(tinfo, Enddate);
+		return "mhome";
 	}
 }

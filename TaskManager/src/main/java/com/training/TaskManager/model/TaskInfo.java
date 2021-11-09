@@ -4,6 +4,7 @@ import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -16,11 +17,11 @@ import org.springframework.stereotype.Component;
 public class TaskInfo {
 
 	@Id
+	@GeneratedValue
 	private int TaskId;
 	private String TaskName;
 	private String Description;
 	private int Progress;
-	private Date StartDate;
 	private Date EndDate;
 	/*
 	@ManyToOne
@@ -28,6 +29,7 @@ public class TaskInfo {
 	
 	@ManyToOne
 	private ManagerInfo mnginf;
+	
 	public EmployeeInfo getEmpinf() {
 		return empinf;
 	}
@@ -82,12 +84,6 @@ public class TaskInfo {
 	}
 	public void setProgress(int progress) {
 		Progress = progress;
-	}
-	public Date getStartDate() {
-		return StartDate;
-	}
-	public void setStartDate(Date startDate) {
-		StartDate = startDate;
 	}
 	public Date getEndDate() {
 		return EndDate;

@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ctask.css">
+	
+	<title>Create Task</title>
+</head>
+<body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
+
+	<div class="center">
+		
+			<h1>CREATE TASK</h1>
+			<form method="post" action="createtask">
+				<div class="txt_field">
+					<input type="text" name="TaskName" />
+					<label>Task Name</label>
+				</div>
+				
+				<div class="txt_field">
+					<!-- <input type="text" name="Description" required/>
+					<label>Task Description</label> -->
+					
+					<textarea name="description" rows="4" cols="70" placeholder="Task Description" style="margin: 0px; width: 318px; height: 168px;"></textarea>
+				</div>
+								
+				<div class="txt_field" >
+					<select >
+						<option value="" disabled selected>Add Employee</option>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</div>
+				
+				<div class="txt_field">
+					<input type="date" name="Enddate" />
+					<label>End Date</label>
+				</div>
+					
+					<input type="submit" value="Save"/>
+					<input type="submit" value="Cancel"/>
+			</form>
+		
+	</div>
+</body>
+</html>
