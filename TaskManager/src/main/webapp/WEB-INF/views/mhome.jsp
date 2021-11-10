@@ -50,9 +50,7 @@
 	      <td>A</td>
 	      <td>B</td>
 	      <td>0</td>
-	      <td>
-	    <button id="button">Updation</button>
-      </td>
+	      <td> <button id="button">Updation</button> </td>
 	    </tr>
 	    </a>
 	    
