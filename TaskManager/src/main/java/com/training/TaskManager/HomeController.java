@@ -100,6 +100,6 @@ public class HomeController
 	{
 		System.out.println(Enddate);
 		tservice.saveOrUpdate(tinfo, Enddate);
-		return "mhome";
+		return "redirect:/mvalidate";
 	}
 }
