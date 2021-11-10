@@ -33,7 +33,7 @@
 								
 				<div class="txt_field" >
 					 
-					<select >
+					<select name="email">
 						<option value="add employee">ADD EMPLOYEE</option>
 						
 						<c:forEach  items="${empdata}" var="emp">

@@ -4,5 +4,5 @@ import com.training.TaskManager.model.TaskInfo;
 
 public interface TaskServiceInterface 
 {
-	public void saveOrUpdate(TaskInfo tinfo,String enddate)throws Exception;
+	public void saveOrUpdate(TaskInfo tinfo,String enddate,String email)throws Exception;
 }

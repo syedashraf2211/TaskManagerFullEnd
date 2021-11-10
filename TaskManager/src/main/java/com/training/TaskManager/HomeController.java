@@ -97,11 +97,11 @@ public class HomeController
 	}
 	
 	@RequestMapping("/createtask")
-	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate) throws Exception
+	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate,@RequestParam String email) throws Exception
 	{
-		//System.out.println(Enddate);
-		tservice.saveOrUpdate(tinfo, Enddate);
-		
-		return "mhome";
+		//System.out.println(email);
+		tservice.saveOrUpdate(tinfo, Enddate,email);
+		return "redirect:/mvalidate";
+
 	}
 }
