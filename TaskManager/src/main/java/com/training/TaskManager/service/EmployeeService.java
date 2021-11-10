@@ -20,8 +20,16 @@ public class EmployeeService implements EmployeeServiceInterface{
 	
 	
 	@Override
-	public void saveOrUpdate(EmployeeInfo emp) {
+	public boolean saveOrUpdate(EmployeeInfo emp) {
+		/*
+		System.out.println(emp.getEmail());
+		EmployeeInfo empdata = findByEmail(emp.getEmail());
+		System.out.println(empdata);
+		if(empdata.getEmail()!=null)
+			return false;
+			*/
 		repo.save(emp);
+		return true;
 	}
 
 
@@ -32,7 +40,7 @@ public class EmployeeService implements EmployeeServiceInterface{
 		return repo.findAll();
 	}
 	
-	/*
+	
 	@Override
 	public EmployeeInfo findByEmail(String email) {
 		// TODO Auto-generated method stub
@@ -40,7 +48,7 @@ public class EmployeeService implements EmployeeServiceInterface{
 		return emp;
 	}
 
-	
+	/*
 	public boolean validateEmployee(String email,String password)
 	{
 		EmployeeInfo emp = findByEmail(email);

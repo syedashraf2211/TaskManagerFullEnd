@@ -15,11 +15,11 @@ public class EmployeeInfo
 {
 	@Id
 	@GeneratedValue
-	private int Eid;
-	private String Ename;
-	private String Email;
-	private String Password;
-	private String Designation;
+	private int eid;
+	private String ename;
+	private String email;
+	private String password;
+	private String designation;
 	/*
 	@OneToOne(mappedBy = "TaskInfo")
     private TaskInfo taskinfo;
@@ -37,34 +37,34 @@ public class EmployeeInfo
 	}
 	*/
 	public int getEid() {
-		return Eid;
+		return eid;
 	}
 	public void setEid(int eid) {
-		Eid = eid;
+		this.eid = eid;
 	}
 	public String getEname() {
-		return Ename;
+		return ename;
 	}
 	public void setEname(String ename) {
-		Ename = ename;
+		this.ename = ename;
 	}
 	public String getEmail() {
-		return Email;
+		return email;
 	}
 	public void setEmail(String email) {
-		Email = email;
+		this.email = email;
 	}
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
 	public String getDesignation() {
-		return Designation;
+		return designation;
 	}
 	public void setDesignation(String designation) {
-		Designation = designation;
+		this.designation = designation;
 	}
 	
 	
