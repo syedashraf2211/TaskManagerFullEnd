@@ -13,7 +13,7 @@
 	<title>Create Task</title>
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
-
+	<c:out value = "${email}"/>
 	<div class="center">
 		
 			<h1>CREATE TASK</h1>
@@ -45,6 +45,10 @@
 				<div class="txt_field">
 					<input type="date" name="Enddate" />
 					<label>End Date</label>
+				</div>
+				<div class="txt_field">
+					<input type="text" name="AssignedBy" value = "${email}"/>
+					<label>Assigned By</label>
 				</div>
 					
 					<input type="submit" value="Save"/>

@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -48,14 +49,29 @@ public class HomeController
 	}
 	
 	@RequestMapping("/evalidate")
-	public String validateEmployee()
+	public String validateEmployee(@RequestParam String email,Model m)
 	{
+		List<TaskInfo> tinfo= tservice.getAllTasks();
+		m.addAttribute("tinfo",tinfo);
+		m.addAttribute("mmail", email);
 		return "ehome";
 	}
 	
-	@RequestMapping("/mvalidate")
-	public String validateManager()
+	@PostMapping("/mvalidate")
+	public String validateManager(@RequestParam String mmail,Model m)
 	{
+		//System.out.println(mmail);
+		List<TaskInfo> tinfo= tservice.getAllTasks();
+		m.addAttribute("tinfo",tinfo);
+		m.addAttribute("mmail", mmail);
+		return "mhome";
+	}
+	
+	@RequestMapping("/mvalidate")
+	public String validateManager(Model m)
+	{
+		List<TaskInfo> tinfo= tservice.getAllTasks();
+		m.addAttribute("tinfo",tinfo);
 		return "mhome";
 	}
 	
@@ -97,10 +113,10 @@ public class HomeController
 	}
 	
 	@RequestMapping("/createtask")
-	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate,@RequestParam String email) throws Exception
+	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate,@RequestParam String email,@RequestParam String AssignedBy) throws Exception
 	{
-		//System.out.println(email);
-		tservice.saveOrUpdate(tinfo, Enddate,email);
+		//System.out.println(AssignedBy);
+		tservice.saveOrUpdate(tinfo, Enddate,email,AssignedBy);
 		return "redirect:/mvalidate";
 	}
 }
