@@ -91,6 +91,7 @@ public class HomeController
 	public String registerTask(Model m)
 	{
 		List<EmployeeInfo> empdata = eservice.getAllEmployees();
+		//System.out.println(empdata.get(0).getEname());
 		m.addAttribute("empdata", empdata);
 		return "tcreate";
 	}
@@ -98,8 +99,9 @@ public class HomeController
 	@RequestMapping("/createtask")
 	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate) throws Exception
 	{
-		System.out.println(Enddate);
+		//System.out.println(Enddate);
 		tservice.saveOrUpdate(tinfo, Enddate);
+		
 		return "mhome";
 	}
 }

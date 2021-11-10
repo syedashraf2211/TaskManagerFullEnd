@@ -16,7 +16,7 @@ public class EmployeeInfo
 	@Id
 	@GeneratedValue
 	private int Eid;
-	private String Ename;
+	public String Ename;
 	private String Email;
 	private String Password;
 	private String Designation;

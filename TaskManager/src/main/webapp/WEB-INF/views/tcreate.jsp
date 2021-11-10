@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>  
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,13 +31,15 @@
 				</div>
 								
 				<div class="txt_field" >
+					 
 					<select >
-						<option value="" disabled selected>Add Employee</option>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="add employee">ADD EMPLOYEE</option>
+						
+						<c:forEach  items="${empdata}" var="emp">
+							<option value="${emp.getEmail()}">${emp.getEmail()}</option>    
+						</c:forEach> 	 
 					</select>
+					  
 				</div>
 				
 				<div class="txt_field">
