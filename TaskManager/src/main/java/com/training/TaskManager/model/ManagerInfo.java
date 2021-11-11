@@ -21,7 +21,7 @@ public class ManagerInfo
 	private String mname;
 	private String email;
 	private String password;
-	/*
+	
 	@OneToMany(mappedBy = "mnginf")
 	private List<TaskInfo> tasks = new ArrayList<>();
 	
@@ -31,7 +31,7 @@ public class ManagerInfo
 	public void setTasks(List<TaskInfo> tasks) {
 		this.tasks = tasks;
 	}
-	*/
+	
 	public int getMid() {
 		return mid;
 	}

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.repository.EmployeeRepository;
 import com.training.TaskManager.repository.TaskRepository;
 
@@ -48,6 +49,15 @@ public class EmployeeService implements EmployeeServiceInterface{
 		return emp;
 	}
 
+
+
+	@Override
+	public void addTask(TaskInfo tinfo,EmployeeInfo empinfo) {
+		// TODO Auto-generated method stub
+		empinfo.getTasks().add(tinfo);
+	}
+
+	
 	/*
 	public boolean validateEmployee(String email,String password)
 	{
