@@ -12,7 +12,8 @@
 </head>
 
 <body>
-	<c:set var = "email" value = "${mmail}" scope = "session" />
+	<!--<c:set var = "email" value = "${mmail}" scope = "session" />-->
+	
 	<div class="topnav">
 	  <a class="active" href="#home">Home</a>
 	  <a href="#news">News</a>
@@ -23,7 +24,6 @@
 	
      
     		<!-- 	 Task Details 	 -->
-    		
     <table>
 	  <thead>
 	    <tr>

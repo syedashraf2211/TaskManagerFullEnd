@@ -7,6 +7,6 @@
 	<title>Employee Home Page</title>
 </head>
 <body>
-	<h1>EMPLOYEE HOME PAGE!!!!!!1</h1>
+	<h1>EMPLOYEE ${empmail} HOME PAGE!!!!!!1</h1>
 </body>
 </html>
