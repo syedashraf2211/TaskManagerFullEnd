@@ -60,12 +60,6 @@
 		    <scope>runtime</scope>
 		</dependency>
 		
-		<!-- JSTL DEPENDENCIES(JAKARTA) -->
-		
-		
-		
-
-		
 	</dependencies>
 
 	<build>

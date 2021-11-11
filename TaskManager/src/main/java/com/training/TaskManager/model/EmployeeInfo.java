@@ -15,11 +15,13 @@ public class EmployeeInfo
 {
 	@Id
 	@GeneratedValue
+
 	private int eid;
 	private String ename;
 	private String email;
 	private String password;
 	private String designation;
+
 	/*
 	@OneToOne(mappedBy = "TaskInfo")
     private TaskInfo taskinfo;
