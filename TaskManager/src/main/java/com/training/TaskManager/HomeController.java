@@ -64,8 +64,8 @@ public class HomeController
 	public String validateManager(Model m)
 	{
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		ManagerInfo mnginfo = mservice.findByEmail("mmail");
-		System.out.println(mnginfo.getMid());
+		//ManagerInfo mnginfo = mservice.findByEmail("mmail");
+		//System.out.println(mnginfo.getMid());
 		m.addAttribute("tinfo",tinfo);
 		return "mhome";
 	}
