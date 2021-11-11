@@ -13,10 +13,8 @@
 </head>
 
 <body>
-	<c:set var = "email" value = "${mmail}" scope = "session" />
      
     		<!-- 	 Task Details 	 -->
-    		
     <table>
 	  <thead>
 	    <tr>
@@ -38,7 +36,7 @@
 	   		</td>
 	    </tr>
 	    <c:forEach items="${tinfo}" var="task">
-	    	 <c:if test="${task.getMnginf().getEmail() == email}">
+	    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
 			    <tr>
 				      <td>${task.getTaskId()}</td>
 				      <td>${task.getTaskName()}</td>

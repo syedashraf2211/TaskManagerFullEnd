@@ -13,11 +13,13 @@
 		<h1>Manager Login</h1>
 		<form action="mvalidate" method="post">
 			<div class="txt_field">
-				 <input type="email" name="mmail" required/>
+				 <!--<input type="email" name="mmail" required/>-->
+				 <input type = "email" name = "email" required />
 				 <label>Email</label>
 			</div>
 			<div class="txt_field">
-				<input type="password" name="mpass" required/>
+				<!--<input type="password" name="mpass" required/>-->
+				<input type="password" name="password" required/>
 				<label>Password</label>
 			</div>
 			<div class="pass"> Forget password? </div>

@@ -24,7 +24,7 @@
 	  </thead>
 	  <tbody>
 	    <c:forEach items="${tinfo}" var="task">
-	    	 <c:if test="${task.getEmpinf().getEmail() == email}">
+	    	 <c:if test="${task.getEmpinf().getEmail() == empmail}">
 			    <tr>
 				      <td>${task.getTaskId()}</td>
 				      <td>${task.getTaskName()}</td>
