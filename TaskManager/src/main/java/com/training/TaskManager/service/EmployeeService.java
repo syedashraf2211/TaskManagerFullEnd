@@ -57,6 +57,17 @@ public class EmployeeService implements EmployeeServiceInterface{
 		empinfo.getTasks().add(tinfo);
 	}
 
+
+
+	@Override
+	public void deleteTask(TaskInfo tinfo, EmployeeInfo empinfo) {
+		// TODO Auto-generated method stub
+		//System.out.println(empinfo.getTasks().size());
+		empinfo.getTasks().remove(tinfo);
+		//System.out.println(empinfo.getTasks().size());
+		
+	}
+
 	
 	/*
 	public boolean validateEmployee(String email,String password)
