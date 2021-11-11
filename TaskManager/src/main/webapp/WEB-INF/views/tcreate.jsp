@@ -13,14 +13,14 @@
 	<title>Create Task</title>
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
-
-	<div class="center">
-		
-		    
+	<%-- <c:out value = "${email}"/>  --%>
+	
+	
+	<div class="center"> 
 			<h1>CREATE TASK</h1>
 			<form method="post" action="createtask">
 				<div class="txt_field">
-					<input type="text" name="TaskName" />
+					<input type="text" name="TaskName"/>
 					<label>Task Name</label>
 				</div>
 				
@@ -29,6 +29,7 @@
 					<label>Task Description</label> -->
 					
 					<textarea name="description" rows="4" cols="70" placeholder="Task Description" style="margin: 0px; width: 318px; height: 168px;"></textarea>
+					
 				</div>
 								
 				<div class="txt_field" >
@@ -40,6 +41,7 @@
 							<option value="${emp.getEmail()}">${emp.getEmail()}</option>    
 						</c:forEach> 	 
 					</select>
+					
 					  
 				</div>
 				
@@ -47,11 +49,14 @@
 					<input type="date" name="Enddate" />
 					<label>End Date</label>
 				</div>
+				<div class="txt_field">
+					<input type="text" class="inputClass" name="AssignedBy" value="${email}" />
+					<label>Assigned By</label>
+				</div>
 					
 					<input type="submit" value="Save"/>
 					<input type="submit" value="Cancel"/>
 			</form>
-		
 	</div>
 </body>
 </html>
