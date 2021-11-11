@@ -13,4 +13,5 @@ public interface ManagerServiceInterface
 	
 	public void addTask(TaskInfo tinfo,ManagerInfo minfo);
 	
+	public void deleteTask(TaskInfo tinfo,ManagerInfo minfo);
 }

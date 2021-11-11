@@ -50,6 +50,12 @@ public class ManagerService implements ManagerServiceInterface{
 		minfo.getTasks().add(tinfo);
 	}
 
+	@Override
+	public void deleteTask(TaskInfo tinfo, ManagerInfo minfo) {
+		// TODO Auto-generated method stub
+		minfo.getTasks().remove(tinfo);
+	}
+
 	
 
 }

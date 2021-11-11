@@ -14,4 +14,6 @@ public interface EmployeeServiceInterface
 	public EmployeeInfo findByEmail(String email);
 	
 	public void addTask(TaskInfo tinfo,EmployeeInfo empinfo);
+	
+	public void deleteTask(TaskInfo tinfo,EmployeeInfo empinfo);
 }
