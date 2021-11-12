@@ -16,7 +16,7 @@
 			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
 			<h1>UPDATE TASK</h1>
 
-			<form method="post" action="/createtask">
+			<form method="post" action="/ecreatetask">
 				<div class="txt_field">
 					<input type="text" name="TaskId" class="inputClass" value="${tinfo.getTaskId()}" required/>
 					<label>Task Id</label>
@@ -31,23 +31,24 @@
 					<!-- <input type="text" name="Description" required/>
 					<label>Task Description</label> -->
 					
-					<textarea name="Description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 70px;">${tinfo.getDescription()}</textarea>
+					<textarea name="Description" rows="4" cols="70" placeholder="Task Description" class="inputClass" required style="margin: 0px; width: 318px; height: 70px;">${tinfo.getDescription()}</textarea>
 					
 				</div>
-								
-				<div class="txt_field" >
-					 
-					<input type="text" name="email" class="inputClass" value="${tinfo.getEmpinf().getEmail()}" required/>	
-					<label>Assigned To</label>
-					  
+				
+				<!-- PROGRESS BAR -->
+							
+				<div class="txt_field">
+					<input type="range" min="0" max="100" step="10" name="Progress" value="${tinfo.getProgress()}" required>
+					<label>Progress</label>
 				</div>
 				
 				<div class="txt_field">
-					<input type="date" name="Enddate" required />
+					<input type="text" name="Enddate" class="inputClass" value="${tinfo.getEndDate()}" required />
 					<label>End Date</label>
 				</div>
+				
 				<div class="txt_field">
-					<input type="text" class="inputClass" name="AssignedBy" value = "${mmail}"/>
+					<input type="text" class="inputClass" name="AssignedBy" value = "${tinfo.getMnginf().getEmail()}"/>
 					<label>Assigned By</label>
 				</div>
 				<input type="submit" value="Update"/>
