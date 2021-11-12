@@ -7,5 +7,5 @@ import com.training.TaskManager.model.EmployeeInfo;
 
 public interface EmployeeRepository extends JpaRepository<EmployeeInfo,Integer>{
 
-	//EmployeeInfo findByEmail(String email);
+	EmployeeInfo findByEmail(String email);
 }

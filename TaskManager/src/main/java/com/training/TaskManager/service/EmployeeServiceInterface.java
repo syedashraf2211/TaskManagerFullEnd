@@ -6,9 +6,9 @@ import com.training.TaskManager.model.EmployeeInfo;
 
 public interface EmployeeServiceInterface 
 {
-	public void saveOrUpdate(EmployeeInfo emp);
+	public boolean saveOrUpdate(EmployeeInfo emp);
 	
 	public List<EmployeeInfo> getAllEmployees();
 	
-	//public EmployeeInfo findByEmail(String email);
+	public EmployeeInfo findByEmail(String email);
 }

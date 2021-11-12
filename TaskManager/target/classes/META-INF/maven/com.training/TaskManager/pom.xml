@@ -43,6 +43,29 @@
 		    <version>9.0.54</version>
 		</dependency>
 		
+		
+		<!-- JSTL DEPENDENCIES(JAVAX) -->
+		
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		    <scope>runtime</scope>
+		</dependency>
+		 
+		<dependency>
+		    <groupId>taglibs</groupId>
+		    <artifactId>standard</artifactId>
+		    <version>1.1.2</version>
+		    <scope>runtime</scope>
+		</dependency>
+		
+		<!-- JSTL DEPENDENCIES(JAKARTA) -->
+		
+		
+		
+
+		
 	</dependencies>
 
 	<build>
