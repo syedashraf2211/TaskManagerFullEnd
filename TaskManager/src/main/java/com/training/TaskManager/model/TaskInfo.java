@@ -23,11 +23,13 @@ public class TaskInfo {
 	private String Description;
 	private int Progress;
 	private Date EndDate;
-	/*
+	
 	@ManyToOne
+	@JoinColumn(name="emp_id")
 	private EmployeeInfo empinf;
 	
 	@ManyToOne
+	@JoinColumn(name="mng_id")
 	private ManagerInfo mnginf;
 	
 	public EmployeeInfo getEmpinf() {
@@ -37,7 +39,7 @@ public class TaskInfo {
 	public void setEmpinf(EmployeeInfo empinf) {
 		this.empinf = empinf;
 	}
-
+/*
 	public TaskInfo(int taskId, String taskName, String description, int progress, Date startDate, Date endDate,
 			EmployeeInfo empinf, ManagerInfo mnginf) {
 		super();
@@ -54,13 +56,13 @@ public class TaskInfo {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	*/
 	public ManagerInfo getMnginf() {
 		return mnginf;
 	}
 	public void setMnginf(ManagerInfo mnginf) {
 		this.mnginf = mnginf;
 	}
-	*/
 	public int getTaskId() {
 		return TaskId;
 	}

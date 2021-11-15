@@ -1,5 +1,7 @@
 package com.training.TaskManager.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -41,5 +43,19 @@ public class ManagerService implements ManagerServiceInterface{
 	{
 		taskrepo.save(task);
 	}
+
+	@Override
+	public void addTask(TaskInfo tinfo, ManagerInfo minfo) {
+		// TODO Auto-generated method stub
+		minfo.getTasks().add(tinfo);
+	}
+
+	@Override
+	public void deleteTask(TaskInfo tinfo, ManagerInfo minfo) {
+		// TODO Auto-generated method stub
+		minfo.getTasks().remove(tinfo);
+	}
+
+	
 
 }

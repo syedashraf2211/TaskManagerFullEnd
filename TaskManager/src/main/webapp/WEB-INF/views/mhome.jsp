@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,27 +13,18 @@
 </head>
 
 <body>
-	<div class="topnav">
-	  <a class="active" href="#home">Home</a>
-	  <a href="#news">News</a>
-	  <a href="#contact">Contact</a>
-	  <a href="#about">About</a>
-	</div>
-	
-	
      
     		<!-- 	 Task Details 	 -->
-    		
     <table>
 	  <thead>
 	    <tr>
 	      <th>Task Id</th>
 	      <th>Task Name</th>
 	      <th>End Date</th>
-	      <th>Manager Name</th>
 	      <th>Employee Name</th>
 	      <th>Progress</th>
-	      <th>Action</th>
+	      <th>Update</th>
+	      <th>Delete</th>
 	    </tr>
 	  </thead>
 	  <tbody>
@@ -42,59 +35,20 @@
 		   		</form>
 	   		</td>
 	    </tr>
-	    <a href="tregister">
-	    <tr>
-	      <td>1</td>
-	      <td>analysis</td>
-	      <td>09-09-2021</td>
-	      <td>A</td>
-	      <td>B</td>
-	      <td>0</td>
-	      <td>
-	    <button id="button">Updation</button>
-      </td>
-	    </tr>
-	    </a>
-	    
-	    <tr>
-	      <td>1</td>
-	      <td>analysis</td>
-	      <td>09-09-2021</td>
-	      <td>A</td>
-	      <td>B</td>
-	      <td>0</td>
-	    </tr>
-	    
-	    <tr>
-	      <td>1</td>
-	      <td>analysis</td>
-	      <td>09-09-2021</td>
-	      <td>A</td>
-	      <td>B</td>
-	      <td>0</td>
-	    </tr>
+	    <c:forEach items="${tinfo}" var="task">
+	    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
+			    <tr>
+				      <td>${task.getTaskId()}</td>
+				      <td>${task.getTaskName()}</td>
+				      <td>${task.getEndDate()}</td>
+				      <td>${task.getEmpinf().getEmail()}</td>
+				      <td>${task.getProgress()}</td>
+				      <td> <button id="button" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
+				      <td> <button id="button" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
+			    </tr>
+		   	</c:if>
+	    </c:forEach>
 	  </tbody>
 	</table> 
-	
-<!-- Popup View -->
-	
-<div class="bg-modal">
-	<div class="modal-contents">
-
-		<div class="close">+</div>
-		<img src="" alt="Analysis">
-			
-	</div>
-</div>
-<script>
-document.getElementById('button').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "flex";
-});
-
-document.querySelector('.close').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "none";
-});
-</script>
-<!-- Popup View -->
 </body>
 </html>

@@ -13,7 +13,7 @@
 		<h1>Employee Login</h1>
 		<form action="evalidate" method="post">
 			<div class="txt_field">
-				 <input type="email" name="eemail" required/>
+				 <input type="email" name="email" required/>
 				 <label>Email</label>
 			</div>
 			<div class="txt_field">

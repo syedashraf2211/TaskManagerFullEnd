@@ -14,46 +14,6 @@ body{
   overflow: hidden;
 }
 
-				/* 			NAVIGATION BAR  			*/
-.topnav {
-  overflow: hidden;
-  background-color:#2691d9;
-  margin:auto;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 24px 26px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #0080c0;
-  
-}
-
-.topnav a.active {
-  background-color: #0080c0;
-  color: white;
-}
-
-
-.open-button{
-  background-color: #3082a5;
-  width: 100%;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 10px;
-  font-size: 16px;
-  margin: 40px 40px;
-  cursor: pointer;
-}
-
 								/* FORM STYLING*/
 .center{
   position: absolute;
@@ -133,6 +93,11 @@ select {
   outline: none;
   
 }
+
+.inputClass 
+{
+  pointer-events: none; 
+}
 													/*SUBMIT AND CLOSE */
 input[type="submit"]{
   width: 100%;
@@ -147,10 +112,6 @@ input[type="submit"]{
   outline: none;
   margin-bottom: 10px;
   
-  
-  width: 40%;
-  display: inline-block;
-  margin-left:20px;
 }
 input[type="submit"]:hover{
   border-color: #2691d9;
@@ -160,9 +121,7 @@ input[type="submit"]:hover{
 input[value="Save"]{
 	background: #2691d9;
 }
-input[value="Cancel"]{
-	background: #808080;
-}
+
 											/*  DATE           */
 input[type=date]:required:invalid::-webkit-datetime-edit {
     color: transparent;
@@ -170,8 +129,6 @@ input[type=date]:required:invalid::-webkit-datetime-edit {
 input[type=date]:focus::-webkit-datetime-edit {
     color: black !important;
 }
-
-
 
 
 

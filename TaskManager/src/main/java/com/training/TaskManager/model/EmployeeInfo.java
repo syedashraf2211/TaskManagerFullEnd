@@ -15,16 +15,18 @@ public class EmployeeInfo
 {
 	@Id
 	@GeneratedValue
+
 	private int eid;
 	private String ename;
 	private String email;
 	private String password;
 	private String designation;
+
 	/*
 	@OneToOne(mappedBy = "TaskInfo")
     private TaskInfo taskinfo;
 	*/
-	/*
+	
 	@OneToMany(mappedBy = "empinf")
 	private List<TaskInfo> tasks = new ArrayList<>();
 	
@@ -35,7 +37,7 @@ public class EmployeeInfo
 	public void setTasks(List<TaskInfo> tasks) {
 		this.tasks = tasks;
 	}
-	*/
+	
 	public int getEid() {
 		return eid;
 	}
