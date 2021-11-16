@@ -6,7 +6,7 @@
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Employee Login</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 	<div class="center">
@@ -26,7 +26,7 @@
 				<a href="eregister">New User? Register here</a>
 			</div>
 			<div class="signup_link">
-				<a href="mlogin">Manager Login</a>
+				<a href="/mng/mlogin">Manager Login</a>
 			</div>
 		</form>
 	</div>

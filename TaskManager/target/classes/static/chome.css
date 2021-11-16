@@ -9,7 +9,7 @@ body{
   margin: 0;
   padding: 20px;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
 }
 	/* Table styling */
 	
@@ -29,6 +29,7 @@ body{
 		  color: #ffffff;
 		  text-align: center;
 		  font-weight: bold;
+		  
 		}
 		table th,
 		table td {
@@ -38,6 +39,7 @@ body{
 		
 		table tbody tr {
 		  border-bottom: 1px solid #dddddd;
+		  
 		}
 		
 		table tbody tr:last-of-type {
@@ -79,12 +81,12 @@ input[type="submit"]:hover{
   border-color: #2691d9;
   transition: .5s;
 }
+.container {
+    text-align: center;
+}
 
 input[value="Save"]{
 	background: #2691d9;
-}
-input[value="Cancel"]{
-	background: #808080;
 }
 /* Submit */
 

@@ -47,5 +47,34 @@ public class TaskService implements TaskServiceInterface
 		// TODO Auto-generated method stub
 		return trepo.findAll();
 	}
+
+	@Override
+	public TaskInfo getTask(int tid) {
+		// TODO Auto-generated method stub
+		TaskInfo tinfo = trepo.getById(tid);
+		return tinfo;
+	}
 	
+	@Override
+	public void deleteTask(int id) {
+		// TODO Auto-generated method stub
+		TaskInfo tinfo = getTask(id);
+		
+		eservice.deleteTask(tinfo, tinfo.getEmpinf());
+		mservice.deleteTask(tinfo, tinfo.getMnginf());
+		
+		trepo.deleteById(id);
+		
+	}
+
+	@Override
+	public void updateProgress(TaskInfo ut) {
+		// TODO Auto-generated method stub
+		TaskInfo tinfo = getTask(ut.getTaskId());
+		tinfo.setProgress(ut.getProgress());
+		
+		mservice.addTask(tinfo,tinfo.getMnginf());
+		eservice.addTask(tinfo,tinfo.getEmpinf());
+		trepo.save(tinfo);
+	}
 }

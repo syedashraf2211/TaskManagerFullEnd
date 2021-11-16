@@ -8,13 +8,19 @@
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manager Home Page</title>
-	<link rel="stylesheet" href="chome.css">
+	<link rel="stylesheet" href="/chome.css">
 
 </head>
 
 <body>
      
     		<!-- 	 Task Details 	 -->
+   	<div style="overflow:auto">
+   	<div class="container">
+	<form method="POST" action="tregister">  
+		<input type="submit" value="Create Task" style="color:black"/>  
+	</form>
+	</div>
     <table>
 	  <thead>
 	    <tr>
@@ -28,13 +34,6 @@
 	    </tr>
 	  </thead>
 	  <tbody>
-	  	<tr>
-		  	<td colspan="7">
-			    <form method="POST" action="tregister">  
-		       		<input type="submit" value="Create Task" style="color:black"/>  
-		   		</form>
-	   		</td>
-	    </tr>
 	    <c:forEach items="${tinfo}" var="task">
 	    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
 			    <tr>
@@ -43,33 +42,13 @@
 				      <td>${task.getEndDate()}</td>
 				      <td>${task.getEmpinf().getEmail()}</td>
 				      <td>${task.getProgress()}</td>
-				      <td> <button id="button">Update</button> </td>
-				      <td> <button id="button">Delete</button> </td>
+				      <td> <button id="button" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
+				      <td> <button id="button" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
 			    </tr>
 		   	</c:if>
 	    </c:forEach>
 	  </tbody>
 	</table> 
-	
-<!-- Popup View -->
-	
-<div class="bg-modal">
-	<div class="modal-contents">
-
-		<div class="close">+</div>
-		<img src="" alt="Analysis">
-			
 	</div>
-</div>
-<script>
-document.getElementById('button').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "flex";
-});
-
-document.querySelector('.close').addEventListener("click", function() {
-	document.querySelector('.bg-modal').style.display = "none";
-});
-</script>
-<!-- Popup View -->
 </body>
 </html>

@@ -1,27 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>  
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="ISO-8859-1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Update Task</title>
 	<link rel="stylesheet" href="/ctask.css">
-	
-	<title>Create Task</title>
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
 	
 	<div class="center">
 			
-			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>
-			<h1>CREATE TASK</h1>
 			
-			<form method="post" action="createtask">
+			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
+			<h1>UPDATE TASK</h1>
+
+			<form method="post" action="/mng/createtask">
 				<div class="txt_field">
-					<input type="text" name="TaskName" required/>
+					<input type="text" name="TaskId" class="inputClass" value="${tinfo.getTaskId()}" required/>
+					<label>Task Id</label>
+				</div>
+				
+				<div class="txt_field">
+					<input type="text" name="TaskName" class="inputClass" value="${tinfo.getTaskName()}" required/>
 					<label>Task Name</label>
 				</div>
 				
@@ -29,20 +31,14 @@
 					<!-- <input type="text" name="Description" required/>
 					<label>Task Description</label> -->
 					
-					<textarea name="description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 70px;"></textarea>
+					<textarea name="Description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 70px;">${tinfo.getDescription()}</textarea>
 					
 				</div>
 								
 				<div class="txt_field" >
 					 
-					<select name="email" required>
-						<option value="add employee">ADD EMPLOYEE</option>
-						
-						<c:forEach  items="${empdata}" var="emp">
-							<option value="${emp.getEmail()}">${emp.getEmail()}</option>    
-						</c:forEach> 	 
-					</select>
-					
+					<input type="text" name="email" class="inputClass" value="${tinfo.getEmpinf().getEmail()}" required/>	
+					<label>Assigned To</label>
 					  
 				</div>
 				
@@ -54,7 +50,7 @@
 					<input type="text" class="inputClass" name="AssignedBy" value = "${mmail}"/>
 					<label>Assigned By</label>
 				</div>
-				<input type="submit" value="Save"/>
+				<input type="submit" value="Update"/>
 			</form>
 	</div>
 
