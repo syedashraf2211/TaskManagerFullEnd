@@ -3,6 +3,9 @@ package com.training.TaskManager.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -10,10 +13,11 @@ import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.repository.EmployeeRepository;
 import com.training.TaskManager.repository.TaskRepository;
+import com.training.TaskManager.security.EmployeePrincipal;
 
 @Service
-@Component
-public class EmployeeService implements EmployeeServiceInterface{
+//@Component
+public class EmployeeService implements EmployeeServiceInterface,UserDetailsService{
 	
 	@Autowired
 	private EmployeeRepository repo;
@@ -66,6 +70,18 @@ public class EmployeeService implements EmployeeServiceInterface{
 		empinfo.getTasks().remove(tinfo);
 		//System.out.println(empinfo.getTasks().size());
 		
+	}
+
+
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		EmployeeInfo einfo = repo.findByEmail(username);
+		if(einfo == null)
+			throw new UsernameNotFoundException("404 Exception");
+		EmployeePrincipal eprincipal = new EmployeePrincipal(einfo);
+		return eprincipal;
 	}
 
 	
