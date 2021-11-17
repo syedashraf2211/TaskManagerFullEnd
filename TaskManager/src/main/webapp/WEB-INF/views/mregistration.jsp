@@ -21,18 +21,32 @@
 				<label>Email</label>
 			</div>
 			<div class="txt_field">
-				<input type="password" name="password" required/>
+				<input type="password" name="password" id="pass" required/>
 				<label>Password</label>
 			</div>
 			<div class="txt_field">
-				<input type="password" name="mcpass" required/>
+				<input type="password" name="mcpass" id="cpass" required/>
 				<label>Confirm password</label>
-			</div>
-			<input type="submit" value="SUBMIT"/>
+			</div> 
+			<input type="submit" value="SUBMIT" onclick="Validate()"/>
 			<div class="signup_link">
 				<a href="mlogin">Already have an account? Login here</a>
 			</div>
 		</form>
 	</div>
+	
+	<script type="text/javascript">
+        function Validate() {
+            var password = document.getElementById("pass").value;
+            var confirmPassword = document.getElementById("cpass").value;
+            if (password != confirmPassword) {
+                alert("Password doesn't match");
+                document.getElementById('pass').value= null;
+                document.getElementById('cpass').value= null;
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 </html>

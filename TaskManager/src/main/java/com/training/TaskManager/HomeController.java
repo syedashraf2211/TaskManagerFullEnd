@@ -42,6 +42,12 @@ public class HomeController
 	TaskService tservice;
 	
 	@RequestMapping("/")
+	public String index()
+	{
+		return "index";
+	}
+	
+	@RequestMapping("/elogin")
 	public String employeeLogin()
 	{
 		return "elogin";

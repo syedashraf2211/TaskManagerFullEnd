@@ -136,9 +136,6 @@ input[type=date]:focus::-webkit-datetime-edit {
   outline: none;
 }
 
-.close:hover {
-	color: #fff;
-}
 
 
 
