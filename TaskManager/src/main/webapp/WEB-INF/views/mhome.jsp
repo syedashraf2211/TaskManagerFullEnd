@@ -13,6 +13,19 @@
 </head>
 
 <body>
+
+			<!--    NAVIGATION BAR   -->
+	<div class="navbar">
+	  <a href="#home">Task Manager</a>
+	  <div class="dropdown" style="float: right;">
+	    <button class="dropbtn">Welcome, <c:out value="${mmail}"/>
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="#" >Logout</a>
+	    </div>
+	  </div> 
+	</div>
      
     		<!-- 	 Task Details 	 -->
    	<div style="overflow:auto">

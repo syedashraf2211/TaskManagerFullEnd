@@ -9,7 +9,20 @@
 	<link rel="stylesheet" href="chome.css">
 </head>
 <body>
-	<!-- 	 Task Details 	 -->
+			<!--    NAVIGATION BAR   -->
+	<div class="navbar" style="margin-bottom:10px;">
+	  <a href="#home">Task Manager</a>
+	  <div class="dropdown" style="float: right;">
+	    <button class="dropbtn">Welcome, <c:out value="${empmail}"/>
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="#" >Logout</a>
+	    </div>
+	  </div>
+	</div>
+	
+				<!-- 	 Task Details 	 -->
     <c:set var = "email" value = "${mmail}" scope = "session" />
     <div style="overflow:auto">
 	    <table>
