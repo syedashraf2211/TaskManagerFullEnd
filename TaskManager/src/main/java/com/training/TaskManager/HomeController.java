@@ -41,7 +41,7 @@ public class HomeController
 	@Autowired
 	TaskService tservice;
 	
-	@RequestMapping("/")
+	@RequestMapping("/elogin")
 	public String employeeLogin()
 	{
 		return "elogin";
@@ -53,14 +53,24 @@ public class HomeController
 		return "mlogin";
 	}
 	
-	@RequestMapping("/evalidate")
-	public String validateEmployee(@RequestParam String email,Model m)
+	@RequestMapping("/emp/evalidate")
+	public String validateEmployee(Model m)
 	{
 		List<TaskInfo> tinfo= tservice.getAllTasks();
 		m.addAttribute("tinfo",tinfo);
-		m.addAttribute("empmail", email);
+		//m.addAttribute("empmail", email);
 		return "ehome";
 	}
+	
+	@PostMapping("/emp/evalidate")
+	public String validateEmployee(@RequestParam String username,Model m)
+	{
+		List<TaskInfo> tinfo= tservice.getAllTasks();
+		m.addAttribute("tinfo",tinfo);
+		m.addAttribute("empmail", username);
+		return "ehome";
+	}
+	
 	
 	@RequestMapping("/mvalidate")
 	public String validateManager(Model m)
@@ -138,6 +148,14 @@ public class HomeController
 		return "redirect:/mvalidate";
 	}
 	
+	@RequestMapping("/ecreatetask")
+	public String ecreateTask(@ModelAttribute TaskInfo tinfo) throws Exception
+	{
+		System.out.println(tinfo.getProgress());
+		tservice.updateProgress(tinfo);
+		return "redirect:/evalidate";
+	}
+	
 	@RequestMapping(value = "/updatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
 	public String updateTask(@PathVariable("taskId") int tid,Model m) throws Exception
 	{
@@ -145,6 +163,16 @@ public class HomeController
 		TaskInfo tinfo = tservice.getTask(tid);
 		m.addAttribute("tinfo",tinfo);
 		return "utask";
+	}
+	
+	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
+	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
+	{
+		//System.out.println(tid);
+		
+		TaskInfo tinfo = tservice.getTask(tid);
+		m.addAttribute("tinfo",tinfo);
+		return "eutask";
 	}
 	
 	@RequestMapping(value = "/deletetask/{taskId:[\\d]+}",method = RequestMethod.GET)

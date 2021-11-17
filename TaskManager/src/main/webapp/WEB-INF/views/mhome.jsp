@@ -15,6 +15,12 @@
 <body>
      
     		<!-- 	 Task Details 	 -->
+   	<div style="overflow:auto">
+   	<div class="container">
+	<form method="POST" action="tregister">  
+		<input type="submit" value="Create Task" style="color:black"/>  
+	</form>
+	</div>
     <table>
 	  <thead>
 	    <tr>
@@ -28,13 +34,6 @@
 	    </tr>
 	  </thead>
 	  <tbody>
-	  	<tr>
-		  	<td colspan="7">
-			    <form method="POST" action="tregister">  
-		       		<input type="submit" value="Create Task" style="color:black"/>  
-		   		</form>
-	   		</td>
-	    </tr>
 	    <c:forEach items="${tinfo}" var="task">
 	    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
 			    <tr>
@@ -50,5 +49,6 @@
 	    </c:forEach>
 	  </tbody>
 	</table> 
+	</div>
 </body>
 </html>
