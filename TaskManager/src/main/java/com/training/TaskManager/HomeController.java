@@ -19,10 +19,23 @@ public class HomeController
 		return "elogin";
 	}
 	
+	@RequestMapping("/eregister")
+	public String registerEmployee()
+	{
+		return "eregistration";
+	}
+	
+	
 	@RequestMapping("/mlogin")
 	public String managerLogin()
 	{
 		return "mlogin";
+	}
+	
+	@RequestMapping("/mregister")
+	public String createManager()
+	{
+		return "mregistration";
 	}
 	
 	@RequestMapping("/logout")

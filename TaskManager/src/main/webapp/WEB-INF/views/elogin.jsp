@@ -24,7 +24,7 @@
 			<div class="pass"> Forget password? </div>
 			<input type="submit" value="SUBMIT"/><br/><br/>
 			<div class="signup_link">
-				<a href="eregister">New User? Register here</a>
+				<a href="/eregister">New User? Register here</a>
 			</div>
 			<div class="signup_link">
 				<a href="/mlogin">Manager Login</a>

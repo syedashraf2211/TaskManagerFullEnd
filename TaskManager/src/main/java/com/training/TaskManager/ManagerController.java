@@ -57,11 +57,6 @@ public class ManagerController
 		return "mhome";
 	}
 	
-	@RequestMapping("/mregister")
-	public String createManager()
-	{
-		return "mregistration";
-	}
 	
 	@RequestMapping("/mcreate")
 	public String createManager(@ModelAttribute ManagerInfo minfo)

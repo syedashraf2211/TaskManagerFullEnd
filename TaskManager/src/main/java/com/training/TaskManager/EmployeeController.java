@@ -58,11 +58,7 @@ public class EmployeeController
 		return "ehome";
 	}
 	
-	@RequestMapping("/eregister")
-	public String registerEmployee()
-	{
-		return "eregistration";
-	}
+	
 	
 	@RequestMapping("/ecreate")
 	public String createEmployee(@ModelAttribute EmployeeInfo einfo)
