@@ -55,7 +55,7 @@ public class AppSecurityConfig
 		http
 			.csrf().disable()
 			.authorizeRequests()
-			.antMatchers("/mlogin").permitAll()
+			.antMatchers("/mlogin","/").permitAll()
 			.antMatchers("/mng/**").permitAll()
 			.antMatchers("/elogin").hasRole("USER")
 			.anyRequest().authenticated()
@@ -65,7 +65,7 @@ public class AppSecurityConfig
 			.defaultSuccessUrl("/emp/evalidate",true)
 			.and()
 			.logout()
-			.logoutSuccessUrl("/logout-success").permitAll();
+			.logoutSuccessUrl("/").permitAll();
 			
 	}
 	}

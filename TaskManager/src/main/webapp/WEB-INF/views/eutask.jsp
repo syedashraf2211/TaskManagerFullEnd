@@ -7,6 +7,8 @@
 	<meta charset="ISO-8859-1">
 	<title>Update Task</title>
 	<link rel="stylesheet" href="/ctask.css">
+	<link rel="stylesheet" href="css/mdb.min.css">
+	
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
 	

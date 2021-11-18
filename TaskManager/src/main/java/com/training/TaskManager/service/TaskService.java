@@ -29,12 +29,7 @@ public class TaskService implements TaskServiceInterface
 	@Override
 	public void saveOrUpdate(TaskInfo tinfo, String enddate,String email,String assignedby) throws Exception {
 		// TODO Auto-generated method stub
-		TaskInfo ut;
-		if(tinfo.getEndDate() != null)
-		{
-			ut = getTask(tinfo.getTaskId());
-			tinfo.setProgress(ut.getProgress());
-		}
+		//System.out.println(enddate+" "+tinfo.getProgress());
 		SimpleDateFormat formatter1=new SimpleDateFormat("yyyy-MM-dd");
 		Date date = formatter1.parse(enddate);
 		tinfo.setEndDate(date);

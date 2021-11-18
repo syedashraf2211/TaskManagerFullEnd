@@ -83,7 +83,7 @@ public class ManagerController
 	@RequestMapping("/createtask")
 	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate,@RequestParam String email,@RequestParam String AssignedBy) throws Exception
 	{
-		//  System.out.println(AssignedBy);
+		//System.out.println("createtask"+tinfo.getProgress());
 		tservice.saveOrUpdate(tinfo, Enddate,email,AssignedBy);
 		return "redirect:/mng/mvalidate";
 	}
