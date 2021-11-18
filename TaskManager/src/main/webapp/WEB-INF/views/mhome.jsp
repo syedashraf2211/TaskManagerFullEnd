@@ -8,47 +8,60 @@
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manager Home Page</title>
-	<link rel="stylesheet" href="chome.css">
+	<link rel="stylesheet" href="/chome.css">
 
 </head>
 
 <body>
+
+			<!--    NAVIGATION BAR   -->
+	<div class="navbar">
+	  <a href="#home">Task Manager</a>
+	  <div class="dropdown" style="float: right;">
+	    <button class="dropbtn">Welcome, <c:out value="${mmail}"/>
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="/logout" >Logout</a>
+	    </div>
+	  </div> 
+	</div>
      
     		<!-- 	 Task Details 	 -->
-    <table>
-	  <thead>
-	    <tr>
-	      <th>Task Id</th>
-	      <th>Task Name</th>
-	      <th>End Date</th>
-	      <th>Employee Name</th>
-	      <th>Progress</th>
-	      <th>Update</th>
-	      <th>Delete</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	  	<tr>
-		  	<td colspan="7">
-			    <form method="POST" action="tregister">  
-		       		<input type="submit" value="Create Task" style="color:black"/>  
-		   		</form>
-	   		</td>
-	    </tr>
-	    <c:forEach items="${tinfo}" var="task">
-	    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
-			    <tr>
-				      <td>${task.getTaskId()}</td>
-				      <td>${task.getTaskName()}</td>
-				      <td>${task.getEndDate()}</td>
-				      <td>${task.getEmpinf().getEmail()}</td>
-				      <td>${task.getProgress()}</td>
-				      <td> <button id="button" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
-				      <td> <button id="button" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
-			    </tr>
-		   	</c:if>
-	    </c:forEach>
-	  </tbody>
-	</table> 
+   	<div style="overflow:auto">
+	   	<div class="container">
+			<form method="POST" action="tregister">  
+				<input type="submit" value="Create Task" style="color:black"/>  
+			</form>
+		</div>
+	    <table>
+		  <thead>
+		    <tr>
+		      <th>Task Id</th>
+		      <th>Task Name</th>
+		      <th>End Date</th>
+		      <th>Employee Name</th>
+		      <th>Progress</th>
+		      <th>Update</th>
+		      <th>Delete</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <c:forEach items="${tinfo}" var="task">
+		    	 <c:if test="${task.getMnginf().getEmail() == mmail}">
+				    <tr>
+					      <td>${task.getTaskId()}</td>
+					      <td>${task.getTaskName()}</td>
+					      <td>${task.getEndDate()}</td>
+					      <td>${task.getEmpinf().getEmail()}</td>
+					      <td>${task.getProgress()}</td>
+					      <td> <button id="button" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
+					      <td> <button id="button" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
+				    </tr>
+			   	</c:if>
+		    </c:forEach>
+		  </tbody>
+		</table> 
+	</div>
 </body>
 </html>

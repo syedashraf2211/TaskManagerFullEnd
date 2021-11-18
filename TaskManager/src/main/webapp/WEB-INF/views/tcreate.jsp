@@ -8,7 +8,7 @@
 <head>
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="ctask.css">
+	<link rel="stylesheet" href="/ctask.css">
 	
 	<title>Create Task</title>
 </head>
@@ -16,7 +16,7 @@
 	
 	<div class="center">
 			
-			<input type="button" value="X" onclick="window.location='/mvalidate'"/>	
+			<input type="button" class="close" value="&times;" onclick="window.location='/mng/mvalidate'"/>
 			<h1>CREATE TASK</h1>
 			
 			<form method="post" action="createtask">
@@ -29,7 +29,7 @@
 					<!-- <input type="text" name="Description" required/>
 					<label>Task Description</label> -->
 					
-					<textarea name="description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 168px;"></textarea>
+					<textarea name="description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 70px;"></textarea>
 					
 				</div>
 								

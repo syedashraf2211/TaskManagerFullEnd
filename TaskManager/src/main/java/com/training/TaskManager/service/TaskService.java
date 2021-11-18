@@ -29,6 +29,7 @@ public class TaskService implements TaskServiceInterface
 	@Override
 	public void saveOrUpdate(TaskInfo tinfo, String enddate,String email,String assignedby) throws Exception {
 		// TODO Auto-generated method stub
+		//System.out.println(enddate+" "+tinfo.getProgress());
 		SimpleDateFormat formatter1=new SimpleDateFormat("yyyy-MM-dd");
 		Date date = formatter1.parse(enddate);
 		tinfo.setEndDate(date);
@@ -66,4 +67,17 @@ public class TaskService implements TaskServiceInterface
 		trepo.deleteById(id);
 		
 	}
+
+	@Override
+	public void updateProgress(TaskInfo ut) {
+		// TODO Auto-generated method stub
+		TaskInfo tinfo = getTask(ut.getTaskId());
+		tinfo.setProgress(ut.getProgress());
+		
+		mservice.addTask(tinfo,tinfo.getMnginf());
+		eservice.addTask(tinfo,tinfo.getEmpinf());
+		trepo.save(tinfo);
+	}
+	
+	
 }
