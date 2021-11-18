@@ -7,59 +7,58 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.ManagerInfo;
 
-public class EmployeePrincipal implements UserDetails {
-
-
-	private EmployeeInfo emp;
+public class ManagerPrincipal implements UserDetails {
+	
+	ManagerInfo minfo;
 	
 	
-	public EmployeePrincipal(EmployeeInfo emp) {
+	public ManagerPrincipal(ManagerInfo minfo) {
 		super();
-		this.emp = emp;
+		this.minfo = minfo;
 	}
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		
-		return Collections.singleton(new SimpleGrantedAuthority("USER"));
+		// TODO Auto-generated method stub
+		return Collections.singleton(new SimpleGrantedAuthority("ADMIN"));
 	}
 
 	@Override
 	public String getPassword() {
 		// TODO Auto-generated method stub
-		return emp.getPassword();
+		return null;
 	}
 
 	@Override
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return emp.getEmail();
+		return null;
 	}
 
 	@Override
 	public boolean isAccountNonExpired() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 	@Override
 	public boolean isAccountNonLocked() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 	@Override
 	public boolean isCredentialsNonExpired() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 	@Override
 	public boolean isEnabled() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 }

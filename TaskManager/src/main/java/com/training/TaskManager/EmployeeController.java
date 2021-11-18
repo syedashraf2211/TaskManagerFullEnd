@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -30,19 +31,21 @@ public class EmployeeController
 	@Autowired
 	TaskService tservice;
 	
-	@RequestMapping("/")
+	@RequestMapping("/elogin")
 	public String employeeLogin()
 	{
 		return "elogin";
 	}
 	
-	@PreAuthorize("hasRole('EMPLOYEEee')")
+	//@PreAuthorize("hasRole('EMPLOYEEee')")
 	@RequestMapping("/evalidate")
 	public String validateEmployee(Model m)
 	{
+		//System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
+		String email = SecurityContextHolder.getContext().getAuthentication().getName();
 		List<TaskInfo> tinfo= tservice.getAllTasks();
 		m.addAttribute("tinfo",tinfo);
-		//m.addAttribute("empmail", email);
+		m.addAttribute("empmail", email);
 		return "ehome";
 	}
 	

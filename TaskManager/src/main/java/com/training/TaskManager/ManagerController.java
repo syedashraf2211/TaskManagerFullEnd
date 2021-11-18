@@ -22,9 +22,9 @@ import com.training.TaskManager.service.ManagerService;
 import com.training.TaskManager.service.TaskService;
 
 @Controller
-//@SessionAttributes({"mmail"})
-//@RequestMapping("/mng")
-public class HomeController 
+@SessionAttributes({"mmail"})
+@RequestMapping("/mng")
+public class ManagerController 
 {
 	
 	@Autowired
@@ -35,25 +35,8 @@ public class HomeController
 	
 	@Autowired
 	TaskService tservice;
-
-	@RequestMapping("/")
-	public String home()
-	{
-		return "index";
-	}
-
-	@RequestMapping("/elogin")
-	public String employeeLogin()
-	{
-		return "elogin";
-	}
 	
-	@RequestMapping("/mlogin")
-	public String managerLogin()
-	{
-		return "mlogin";
-	}
-	/*
+
 	@RequestMapping("/mvalidate")
 	public String validateManager(Model m)
 	{
@@ -63,17 +46,6 @@ public class HomeController
 		m.addAttribute("tinfo",tinfo);
 		return "mhome";
 	}
-	/*
-	@PostMapping("/mvalidate")
-	public String validateManager(@RequestParam String mmail,Model m)
-	{
-		//System.out.println(mmail);
-		List<TaskInfo> tinfo= tservice.getAllTasks();
-		m.addAttribute("tinfo",tinfo);
-		m.addAttribute("mmail", mmail);
-		return "mhome";
-	}
-	
 	
 	@PostMapping("/mvalidate")
 	public String postManager(Model m,@RequestParam String email)
@@ -89,20 +61,6 @@ public class HomeController
 	public String createManager()
 	{
 		return "mregistration";
-	}
-	/*
-	@RequestMapping("/eregister")
-	public String registerEmployee()
-	{
-		return "eregistration";
-	}
-	
-	@RequestMapping("/ecreate")
-	public String createEmployee(@ModelAttribute EmployeeInfo einfo)
-	{
-		//System.out.println(einfo.getEname());
-		eservice.saveOrUpdate(einfo);
-		return "elogin";
 	}
 	
 	@RequestMapping("/mcreate")
@@ -129,14 +87,6 @@ public class HomeController
 		tservice.saveOrUpdate(tinfo, Enddate,email,AssignedBy);
 		return "redirect:/mng/mvalidate";
 	}
-	/*
-	@RequestMapping("/ecreatetask")
-	public String ecreateTask(@ModelAttribute TaskInfo tinfo) throws Exception
-	{
-		System.out.println(tinfo.getProgress());
-		tservice.updateProgress(tinfo);
-		return "redirect:/evalidate";
-	}
 	
 	@RequestMapping(value = "/updatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
 	public String updateTask(@PathVariable("taskId") int tid,Model m) throws Exception
@@ -145,16 +95,6 @@ public class HomeController
 		TaskInfo tinfo = tservice.getTask(tid);
 		m.addAttribute("tinfo",tinfo);
 		return "utask";
-	}
-	/*
-	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
-	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
-	{
-		//System.out.println(tid);
-		
-		TaskInfo tinfo = tservice.getTask(tid);
-		m.addAttribute("tinfo",tinfo);
-		return "eutask";
 	}
 	
 	@RequestMapping(value = "/deletetask/{taskId:[\\d]+}",method = RequestMethod.GET)
@@ -165,5 +105,4 @@ public class HomeController
 		
 		return "redirect:/mng/mvalidate";
 	}
-	*/
 }

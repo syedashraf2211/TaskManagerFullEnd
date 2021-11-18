@@ -13,7 +13,7 @@
 	<div class="center">
 			
 			
-			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
+			<input type="button" class="close" value="&times;" onclick="window.location='/mng/mvalidate'"/>	
 			<h1>UPDATE TASK</h1>
 
 			<form method="post" action="/mng/createtask">

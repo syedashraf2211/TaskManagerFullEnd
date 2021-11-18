@@ -17,7 +17,7 @@ import com.training.TaskManager.security.EmployeePrincipal;
 
 @Service
 //@Component
-public class EmployeeService implements EmployeeServiceInterface,UserDetailsService{
+public class EmployeeService implements EmployeeServiceInterface{
 	
 	@Autowired
 	private EmployeeRepository repo;
@@ -72,17 +72,6 @@ public class EmployeeService implements EmployeeServiceInterface,UserDetailsServ
 		
 	}
 
-
-
-	@Override
-	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		// TODO Auto-generated method stub
-		EmployeeInfo einfo = repo.findByEmail(username);
-		if(einfo == null)
-			throw new UsernameNotFoundException("404 Exception");
-		EmployeePrincipal eprincipal = new EmployeePrincipal(einfo);
-		return eprincipal;
-	}
 
 	
 	/*

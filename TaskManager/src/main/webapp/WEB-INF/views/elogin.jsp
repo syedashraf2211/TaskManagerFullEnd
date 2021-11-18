@@ -11,13 +11,14 @@
 <body>
 	<div class="center">
 		<h1>Employee Login</h1>
-		<form action="evalidate" method="post">
+		${SPRING_SECURITY_LAST_EXCEPTION.message}
+		<form action = "/elogin" method="post">
 			<div class="txt_field">
-				 <input type="email" name="email" required/>
+				 <input type="email" name="username" required/> 
 				 <label>Email</label>
 			</div>
 			<div class="txt_field">
-				<input type="password" name="epass" required/>
+				<input type="password" name="password" required/>
 				<label>Password</label>
 			</div>
 			<div class="pass"> Forget password? </div>
@@ -26,7 +27,7 @@
 				<a href="eregister">New User? Register here</a>
 			</div>
 			<div class="signup_link">
-				<a href="/mng/mlogin">Manager Login</a>
+				<a href="/mlogin">Manager Login</a>
 			</div>
 		</form>
 	</div>
