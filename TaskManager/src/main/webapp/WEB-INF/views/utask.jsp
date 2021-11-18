@@ -7,6 +7,8 @@
 	<meta charset="ISO-8859-1">
 	<title>Update Task</title>
 	<link rel="stylesheet" href="/ctask.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
 	
@@ -40,6 +42,15 @@
 					<input type="text" name="email" class="inputClass" value="${tinfo.getEmpinf().getEmail()}" required/>	
 					<label>Assigned To</label>
 					  
+				</div>
+				
+				<div class="txt_field">
+					<p style="color: #2691d9;">Progress</p>
+					<div class="progress">
+					  <div class="progress-bar" class="inputClass" role="progressbar" style="width: ${tinfo.getProgress()}%;" aria-valuenow="${tinfo.getProgress()}" aria-valuemin="0" aria-valuemax="100">${tinfo.getProgress()}%</div>
+					  
+					</div>
+					
 				</div>
 				
 				<div class="txt_field">
