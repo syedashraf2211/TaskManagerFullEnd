@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +14,7 @@
 		<h1>Manager Login</h1>
 		${SPRING_SECURITY_LAST_EXCEPTION.message}
 		<form action="/mng/mlogin" method="post">
+			${message}
 			<div class="txt_field">
 				 <!--<input type="email" name="mmail" required/>-->
 				 <input type = "email" name = "username" required />
@@ -26,7 +28,7 @@
 			<div class="pass"> Forget password? </div>
 			<input type="submit" value="SUBMIT"/><br/><br/>
 			<div class="signup_link">
-				<a href="mregister">New User? Register here</a>
+				<a href="/mregister">New User? Register here</a>
 			</div>
 		</form>
 	</div>

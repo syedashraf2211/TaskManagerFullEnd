@@ -21,9 +21,13 @@ public class ManagerService implements ManagerServiceInterface{
 	private TaskRepository taskrepo;
 	
 	@Override
-	public void saveOrUpdate(ManagerInfo manager) 
+	public boolean saveOrUpdate(ManagerInfo manager) 
 	{
+		ManagerInfo minfo = findByEmail(manager.getEmail());
+		if(minfo != null)
+			return false;
 		managerrepo.save(manager);
+		return true;
 	}
 
 	@Override

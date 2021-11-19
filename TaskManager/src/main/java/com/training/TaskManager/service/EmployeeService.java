@@ -33,6 +33,9 @@ public class EmployeeService implements EmployeeServiceInterface{
 		if(empdata.getEmail()!=null)
 			return false;
 			*/
+		EmployeeInfo einfo = findByEmail(emp.getEmail());
+		if(einfo != null)
+			return false;
 		repo.save(emp);
 		return true;
 	}

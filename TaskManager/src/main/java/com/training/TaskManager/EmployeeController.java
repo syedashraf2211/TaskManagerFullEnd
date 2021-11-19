@@ -61,10 +61,12 @@ public class EmployeeController
 	
 	
 	@RequestMapping("/ecreate")
-	public String createEmployee(@ModelAttribute EmployeeInfo einfo)
+	public String createEmployee(@ModelAttribute EmployeeInfo einfo,Model m)
 	{
 		//System.out.println(einfo.getEname());
-		eservice.saveOrUpdate(einfo);
+		boolean status = eservice.saveOrUpdate(einfo);
+		if(!status)
+			m.addAttribute("message", "User Already Exist! Please login");
 		return "elogin";
 	}
 	
