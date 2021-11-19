@@ -12,7 +12,7 @@
 	<div class="center">
 		<h1>Employee Login</h1>
 		${SPRING_SECURITY_LAST_EXCEPTION.message}
-		<form action = "/elogin" method="post">
+		<form action = "/emp/elogin" method="post">
 			<div class="txt_field">
 				 <input type="email" name="username" required/> 
 				 <label>Email</label>

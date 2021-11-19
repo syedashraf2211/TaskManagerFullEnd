@@ -12,8 +12,8 @@ public class HomeController
 	{
 		return "index";
 	}
-
-	@RequestMapping("/elogin")
+	
+	@RequestMapping("/emp/elogin")
 	public String employeeLogin()
 	{
 		return "elogin";
@@ -26,7 +26,7 @@ public class HomeController
 	}
 	
 	
-	@RequestMapping("/mlogin")
+	@RequestMapping("/mng/mlogin")
 	public String managerLogin()
 	{
 		return "mlogin";
@@ -37,10 +37,11 @@ public class HomeController
 	{
 		return "mregistration";
 	}
-	
+	/*
 	@RequestMapping("/logout")
 	public String Logout()
 	{
 		return "redirect:/";
 	}
+	*/
 }

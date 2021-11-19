@@ -3,6 +3,7 @@ package com.training.TaskManager;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,8 +42,8 @@ public class ManagerController
 	public String validateManager(Model m)
 	{
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		//ManagerInfo mnginfo = mservice.findByEmail("mmail");
-		//System.out.println(mnginfo.getMid());
+		String email = SecurityContextHolder.getContext().getAuthentication().getName();
+		m.addAttribute("mmail", email);
 		m.addAttribute("tinfo",tinfo);
 		return "mhome";
 	}

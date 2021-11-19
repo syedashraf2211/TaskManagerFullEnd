@@ -31,12 +31,12 @@ public class EmployeeController
 	@Autowired
 	TaskService tservice;
 	
-	@RequestMapping("/elogin")
-	public String employeeLogin()
-	{
-		return "elogin";
-	}
-	
+//	@RequestMapping("/")
+//	public String employeeLogin()
+//	{
+//		return "elogin";
+//	}
+//	
 	//@PreAuthorize("hasRole('EMPLOYEEee')")
 	@RequestMapping("/evalidate")
 	public String validateEmployee(Model m)

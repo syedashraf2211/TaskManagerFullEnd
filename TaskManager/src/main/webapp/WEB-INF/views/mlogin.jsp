@@ -11,10 +11,11 @@
 <body>
 	<div class="center">
 		<h1>Manager Login</h1>
-		<form action="/mng/mvalidate" method="post">
+		${SPRING_SECURITY_LAST_EXCEPTION.message}
+		<form action="/mng/mlogin" method="post">
 			<div class="txt_field">
 				 <!--<input type="email" name="mmail" required/>-->
-				 <input type = "email" name = "email" required />
+				 <input type = "email" name = "username" required />
 				 <label>Email</label>
 			</div>
 			<div class="txt_field">
