@@ -21,14 +21,14 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  height: 90vh;
+  height: 100%;
   background: white;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
 }
 .center h1{
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
   border-bottom: 1px solid silver;
 }
 .center form{
