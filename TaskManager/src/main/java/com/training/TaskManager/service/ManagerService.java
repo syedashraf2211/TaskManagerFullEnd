@@ -3,6 +3,7 @@ package com.training.TaskManager.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,10 @@ public class ManagerService implements ManagerServiceInterface{
 		ManagerInfo minfo = findByEmail(manager.getEmail());
 		if(minfo != null)
 			return false;
+		String password = manager.getPassword();
+		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		String encodedpassword = passwordEncoder.encode(password);
+		manager.setPassword(encodedpassword);
 		managerrepo.save(manager);
 		return true;
 	}

@@ -32,20 +32,22 @@ public class EmployeeController
 	@Autowired
 	TaskService tservice;
 	
+	final String TINFO = "tinfo";
+	
 //	@RequestMapping("/")
 //	public String employeeLogin()
 //	{
 //		return "elogin";
 //	}
 //	
-	//@PreAuthorize("hasRole('EMPLOYEEee')")
+	
 	@RequestMapping("/evalidate")
 	public String validateEmployee(Model m)
 	{
 		//System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
 		String email = SecurityContextHolder.getContext().getAuthentication().getName();
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		m.addAttribute("empmail", email);
 		return "ehome";
 	}
@@ -54,7 +56,7 @@ public class EmployeeController
 	public String validateEmployee(@RequestParam String email,Model m)
 	{
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		m.addAttribute("empmail", email);
 		return "ehome";
 	}
@@ -83,7 +85,7 @@ public class EmployeeController
 	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
 	{
 		TaskInfo tinfo = tservice.getTask(tid);
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		return "eutask";
 	}
 	
