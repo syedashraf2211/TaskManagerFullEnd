@@ -18,7 +18,7 @@
 			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
 			<h1>UPDATE TASK</h1>
 
-			<form method="post" action="/ecreatetask">
+			<form method="post" action="/emp/ecreatetask">
 				<div class="txt_field">
 					<input type="text" name="TaskId" class="inputClass" value="${tinfo.getTaskId()}" required/>
 					<label>Task Id</label>

@@ -7,7 +7,7 @@ import com.training.TaskManager.model.TaskInfo;
 
 public interface ManagerServiceInterface 
 {
-	public void saveOrUpdate(ManagerInfo manager);
+	public boolean saveOrUpdate(ManagerInfo manager);
 	
 	public ManagerInfo findByEmail(String email);
 	

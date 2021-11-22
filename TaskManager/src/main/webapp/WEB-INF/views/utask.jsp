@@ -17,10 +17,10 @@
 	<div class="center">
 			
 			
-			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
+			<input type="button" class="close" value="&times;" onclick="window.location='/mng/mvalidate'"/>	
 			<h1>UPDATE TASK</h1>
 
-			<form method="post" action="/createtask">
+			<form method="post" action="/mng/createtask">
 				<div class="txt_field">
 					<input type="text" name="TaskId" class="inputClass" value="${tinfo.getTaskId()}" required/>
 					<label>Task Id</label>
@@ -45,16 +45,19 @@
 					<label>Assigned To</label>
 					  
 				</div>
-				
+				<!--
 				<div class="txt_field">
 					<p style="color: #2691d9;">Progress</p>
 					<div class="progress">
-					  <div class="progress-bar" class="inputClass" role="progressbar" style="width: ${tinfo.getProgress()}%;" aria-valuenow="${tinfo.getProgress()}" aria-valuemin="0" aria-valuemax="100">${tinfo.getProgress()}%</div>
+					  <div class="progress-bar" class="inputClass" role="progressbar" name="Progress" value="${tinfo.getProgress()}" style="width: ${tinfo.getProgress()}%;" aria-valuenow="${tinfo.getProgress()}" aria-valuemin="0" aria-valuemax="100">${tinfo.getProgress()}%</div>
 					  
 					</div>
 					
 				</div>
-				
+				-->
+				<div class="txt_field" style="display:none;">
+					<input type="text" class="inputClass" name="Progress" value = "${tinfo.getProgress()}"/>
+				</div>
 				<div class="txt_field">
 					<input type="date" name="Enddate" required />
 					<label>End Date</label>

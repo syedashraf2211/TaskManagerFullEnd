@@ -8,7 +8,8 @@
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manager Home Page</title>
-	<link rel="stylesheet" href="chome.css">
+	<link rel="stylesheet" href="/chome.css">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 	      <i class="fa fa-caret-down"></i>
 	    </button>
 	    <div class="dropdown-content">
-	      <a href="#" >Logout</a>
+	      <a href="/mng/logout" >Logout</a>
 	    </div>
 	  </div> 
 	</div>
