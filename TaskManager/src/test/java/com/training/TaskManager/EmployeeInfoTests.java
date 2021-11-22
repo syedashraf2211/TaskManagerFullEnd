@@ -17,18 +17,17 @@ import com.training.TaskManager.service.EmployeeServiceInterface;
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 public class EmployeeInfoTests 
 {
-	/*
+	
 	@Autowired
 	EmployeeRepository empservice;
 	
 	
 	
-//	@Test
-//	public void testFindByEmail()
-//	{
-//		EmployeeInfo emp = empservice.findByEmail("vmymail@gmail.com");
-//		assertThat(emp.getPassword()).isEqualTo("112344556");
-//	}
- * 
- */
+	@Test
+	public void testFindByEmail()
+	{
+		EmployeeInfo emp = empservice.findByEmail("vijay.vegnesh@gmail.com");
+		assertThat(emp.getPassword()).isEqualTo("123");
+	}
+ 
 }

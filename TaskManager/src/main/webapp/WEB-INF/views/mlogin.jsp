@@ -8,13 +8,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manager Login</title>
 	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="center">
 		<h1>Manager Login</h1>
-		${SPRING_SECURITY_LAST_EXCEPTION.message}
+		
+		<c:if test = "${SPRING_SECURITY_LAST_EXCEPTION.message != null }">
+			<div class="alert alert-danger" style="margin: auto;margin-bottom:5px;width: fit-content;height: fit-content;">
+				<strong> ${SPRING_SECURITY_LAST_EXCEPTION.message} </strong>
+			</div>
+		</c:if>
+		
+		<c:if test = "${message != null }">
+			<div class="alert alert-warning" style="margin: auto;margin-bottom:5px;width: fit-content;height: fit-content;">
+				<strong> ${message} </strong>
+			</div>
+		</c:if>
+		
+		
 		<form action="/mng/mlogin" method="post">
-			${message}
+			
 			<div class="txt_field">
 				 <!--<input type="email" name="mmail" required/>-->
 				 <input type = "email" name = "username" required />
