@@ -30,7 +30,7 @@
 				<a href="/eregister">New User? Register here</a>
 			</div>
 			<div class="signup_link">
-				<a href="/mlogin">Manager Login</a>
+				<a href="/mng/mlogin">Manager Login</a>
 			</div>
 		</form>
 	</div>
