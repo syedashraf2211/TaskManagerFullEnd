@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.TaskInfo;
@@ -81,10 +82,14 @@ public class EmployeeController
 	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
 	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
 	{
-		//System.out.println(tid);
-		
 		TaskInfo tinfo = tservice.getTask(tid);
 		m.addAttribute("tinfo",tinfo);
 		return "eutask";
+	}
+	
+	@RequestMapping(value="/end")
+	public void endSession(SessionStatus status)
+	{
+		status.setComplete();
 	}
 }

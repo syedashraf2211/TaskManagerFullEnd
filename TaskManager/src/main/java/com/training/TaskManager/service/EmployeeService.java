@@ -26,13 +26,7 @@ public class EmployeeService implements EmployeeServiceInterface{
 	
 	@Override
 	public boolean saveOrUpdate(EmployeeInfo emp) {
-		/*
-		System.out.println(emp.getEmail());
-		EmployeeInfo empdata = findByEmail(emp.getEmail());
-		System.out.println(empdata);
-		if(empdata.getEmail()!=null)
-			return false;
-			*/
+		
 		EmployeeInfo einfo = findByEmail(emp.getEmail());
 		if(einfo != null)
 			return false;
@@ -44,23 +38,21 @@ public class EmployeeService implements EmployeeServiceInterface{
 
 	@Override
 	public List<EmployeeInfo> getAllEmployees() {
-		// TODO Auto-generated method stub
+
 		return repo.findAll();
 	}
 	
 	
 	@Override
 	public EmployeeInfo findByEmail(String email) {
-		// TODO Auto-generated method stub
-		EmployeeInfo emp = repo.findByEmail(email);
-		return emp;
+
+		return repo.findByEmail(email);
 	}
 
 
 
 	@Override
 	public void addTask(TaskInfo tinfo,EmployeeInfo empinfo) {
-		// TODO Auto-generated method stub
 		empinfo.getTasks().add(tinfo);
 	}
 
@@ -68,10 +60,8 @@ public class EmployeeService implements EmployeeServiceInterface{
 
 	@Override
 	public void deleteTask(TaskInfo tinfo, EmployeeInfo empinfo) {
-		// TODO Auto-generated method stub
-		//System.out.println(empinfo.getTasks().size());
+
 		empinfo.getTasks().remove(tinfo);
-		//System.out.println(empinfo.getTasks().size());
 		
 	}
 
