@@ -1,0 +1,3034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_PUJngEt9EeygyeJ-PesYNw">
+  <modelElement href="TaskManager.uml#_QVvnYEt9EeygyeJ-PesYNw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RoyjoEt9EeygyeJ-PesYNw" sourceAnchor="369.0,0.0" targetAnchor="434.0,50.0" target="_RsuocEt9EeygyeJ-PesYNw" source="_Ro0_6Ut9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RC1W4Et9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SNxgAEt9EeygyeJ-PesYNw" sourceY="-1127" targetX="912"/>
+    <stereotypes xmi:id="_RoyjoUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RC7dgEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Royjokt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SN-7YEt9EeygyeJ-PesYNw" position="-13.708168391128538,969.9139944300045"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Royjo0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RC1W4Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SN9GNEt9EeygyeJ-PesYNw" position="2.534798980713731,-73.91409279988079"/>
+      <visibility xmi:id="_RoyjpEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RoyjpUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Royjpkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="eservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-pacEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SN-7YUt9EeygyeJ-PesYNw" position="888.5991632118233,844.8290189754684"/>
+      <visibility xmi:id="_Royjp0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RoyjqEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Ro0_4Et9EeygyeJ-PesYNw" sourceAnchor="236.0,0.0" targetAnchor="632.0,88.0" target="_RtgEgEt9EeygyeJ-PesYNw" source="_Ro0_6Ut9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RC7dgUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SNz8QEt9EeygyeJ-PesYNw" sourceY="-144" targetX="796"/>
+    <stereotypes xmi:id="_Ro0_4Ut9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RDCLMEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ro0_4kt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOAwkEt9EeygyeJ-PesYNw" position="-14.832148595172612,-91.85801177732753"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ro0_40t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RC7dgkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOAJgEt9EeygyeJ-PesYNw" position="2.695576572673758,-73.06154784221098"/>
+      <visibility xmi:id="_Ro0_5Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro0_5Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ro0_5kt9EeygyeJ-PesYNw" aggregationKind="NONE" name="tservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-qokEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOAwkUt9EeygyeJ-PesYNw" position="773.4704065395648,-294.60901302075126"/>
+      <visibility xmi:id="_Ro0_50t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Ro0_6Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RpSS4Et9EeygyeJ-PesYNw" sourceAnchor="236.0,0.0" targetAnchor="0.0,59.0" target="_RsuocEt9EeygyeJ-PesYNw" source="_RpaOsEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RAPV4Et9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SNz8QUt9EeygyeJ-PesYNw" sourceY="-173" targetX="-323"/>
+    <stereotypes xmi:id="_RpVWMUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RAX4wEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RpUvIEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOB-sEt9EeygyeJ-PesYNw" position="-13.83856099048046,59.15606371631601"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RpUvIUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RAPV4Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOBXoEt9EeygyeJ-PesYNw" position="3.2530657638137654,-73.74519986890834"/>
+      <visibility xmi:id="_RpXLYUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpXLYEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RpVWMEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="eservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9tmUUt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOClwEt9EeygyeJ-PesYNw" position="-347.2337312140827,-24.144050073131922"/>
+      <visibility xmi:id="_RpXycEt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpXLYkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RpZnoEt9EeygyeJ-PesYNw" sourceAnchor="116.0,0.0" targetAnchor="464.0,200.0" target="_RtKGQEt9EeygyeJ-PesYNw" source="_RpaOsEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RAYf0Et9EeygyeJ-PesYNw"/>
+    <stereotypes xmi:id="_RpZnoUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RAhCsEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RpZnokt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SODz4Et9EeygyeJ-PesYNw" position="-14.285107930802951,-116.2014456249189"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RpZno0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RAYf0Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SODM0Et9EeygyeJ-PesYNw" position="3.0475216186067655,-72.92248634857427"/>
+      <visibility xmi:id="_RpZnpEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpZnpUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RpZnpkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9u0ckt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SODz4Ut9EeygyeJ-PesYNw" position="-26.29099165154514,-201.09695347968383"/>
+      <visibility xmi:id="_RpZnp0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpZnqEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RpoRIEt9EeygyeJ-PesYNw" sourceAnchor="329.0,223.0" targetAnchor="434.0,20.0" target="_RsuocEt9EeygyeJ-PesYNw" source="_RpzQQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RAhCsUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN0jUEt9EeygyeJ-PesYNw" sourceY="109" targetX="-1616" targetY="1489"/>
+    <bendpoints xmi:id="_SN0jUUt9EeygyeJ-PesYNw" sourceX="3258" sourceY="109" targetX="1642" targetY="1489"/>
+    <bendpoints xmi:id="_SN1KYEt9EeygyeJ-PesYNw" sourceX="3258" sourceY="-1380" targetX="1642"/>
+    <stereotypes xmi:id="_RptJoUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RAqzsEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RpsikEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOFCAEt9EeygyeJ-PesYNw" position="-3286.7523816866606,-41.23356947160596"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RpsikUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RAhpwEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOEa8Et9EeygyeJ-PesYNw" position="-20.206419485162087,20.39790958734443"/>
+      <visibility xmi:id="_Rpvl4Ut9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rpvl4Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RptJoEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="eservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9wpoEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOFCAUt9EeygyeJ-PesYNw" position="-1661.7281917088612,1470.692241296364"/>
+      <visibility xmi:id="_Rpvl40t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rpvl4kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RpoRIUt9EeygyeJ-PesYNw" sourceAnchor="329.0,0.0" targetAnchor="0.0,100.0" target="_RtKGQEt9EeygyeJ-PesYNw" source="_RpzQQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RAqzsUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN1KYUt9EeygyeJ-PesYNw" sourceY="-557" targetX="-275" targetY="543"/>
+    <bendpoints xmi:id="_SN1KYkt9EeygyeJ-PesYNw" sourceX="230" sourceY="-557" targetX="-45" targetY="543"/>
+    <bendpoints xmi:id="_SN1KY0t9EeygyeJ-PesYNw" sourceX="230" sourceY="-1100" targetX="-45"/>
+    <stereotypes xmi:id="_RptwsUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RAzWkEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RptJokt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOGQIEt9EeygyeJ-PesYNw" position="-243.48993352770572,439.4737173201762"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RptJo0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RAqzskt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOFpEEt9EeygyeJ-PesYNw" position="2.80155634180187,-75.3907592783105"/>
+      <visibility xmi:id="_RpwM8kt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpwM8Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RptwsEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9x3wUt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOG3MEt9EeygyeJ-PesYNw" position="-301.14541582785523,899.3575054520766"/>
+      <visibility xmi:id="_Rpw0AUt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rpw0AEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rpo4MEt9EeygyeJ-PesYNw" sourceAnchor="658.0,111.0" targetAnchor="44.0,177.0" target="_RtgEgEt9EeygyeJ-PesYNw" source="_RpzQQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RAzWkUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN1xcEt9EeygyeJ-PesYNw" sourceX="682" targetY="166"/>
+    <stereotypes xmi:id="_RpuXwEt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RA8ggEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rptwskt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOIFUEt9EeygyeJ-PesYNw" position="-555.6381958478228,-3.5179747196571043"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rptws0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RAzWkkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOHeQEt9EeygyeJ-PesYNw" position="36.988659744572715,-16.2281926009382"/>
+      <visibility xmi:id="_Rpw0BEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rpw0A0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RptwtEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="tservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9ye0kt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOIFUUt9EeygyeJ-PesYNw" position="-459.9900870821523,150.0423910777463"/>
+      <visibility xmi:id="_RpxbEEt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rpw0BUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RqJ1kEt9EeygyeJ-PesYNw" source="_RqJ1mUt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RA8ggUt9EeygyeJ-PesYNw"/>
+    <stereotypes xmi:id="_RqJ1kUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBFDYEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RqJ1kkt9EeygyeJ-PesYNw" text=""/>
+    <sourceRole xmi:id="_RqJ1k0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RA8ggkt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqJ1lEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqJ1lUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RqJ1lkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="TaskManager.uml#_Q907EEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqJ1l0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqJ1mEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RqRKUEt9EeygyeJ-PesYNw" sourceAnchor="0.0,78.0" targetAnchor="91.0,0.0" target="_RqVbwEt9EeygyeJ-PesYNw" source="_RqnImEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q9-sEEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN2YgEt9EeygyeJ-PesYNw" sourceX="-65" targetX="1034" targetY="290"/>
+    <bendpoints xmi:id="_SN2YgUt9EeygyeJ-PesYNw" sourceX="-65" sourceY="-438" targetX="1034" targetY="-148"/>
+    <bendpoints xmi:id="_SN2Ygkt9EeygyeJ-PesYNw" sourceX="-1099" sourceY="-438" targetY="-148"/>
+    <nameVisual xmi:id="_RqS_gEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOJ6gUt9EeygyeJ-PesYNw" position="-15.660996557774865,420.71873219818553"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RqTmkEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="tasks" navigable="true">
+      <modelElement href="TaskManager.uml#_Q98P0Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOJ6gEt9EeygyeJ-PesYNw" position="-70.90825385088942,-37.56049120597174"/>
+      <visibility xmi:id="_RqUNoUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqUNoEt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RqTmkUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="empinf" navigable="true">
+      <modelElement href="TaskManager.uml#_Q99d8Et9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOJ6gkt9EeygyeJ-PesYNw" position="956.591816904031,251.93053273879093"/>
+      <stereotypes xmi:id="_RqU0sUt9EeygyeJ-PesYNw" name="JoinColumns">
+        <modelElement href="TaskManager.uml#_Q-fCYEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqU0sEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqUNokt9EeygyeJ-PesYNw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RqcJcEt9EeygyeJ-PesYNw" sourceAnchor="181.0,78.0" targetAnchor="84.0,134.0" target="_Rqels0t9EeygyeJ-PesYNw" source="_RqnImEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q-ozYEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN2Yg0t9EeygyeJ-PesYNw" sourceX="1043" targetY="133"/>
+    <nameVisual xmi:id="_RqdXkEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOLIoEt9EeygyeJ-PesYNw" position="-982.0098824385909,-3.112568165553739"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rqd-oEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="tasks" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-nlQUt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOKhkEt9EeygyeJ-PesYNw" position="22.944623525312863,-15.808141417024217"/>
+      <visibility xmi:id="_Rqd-o0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rqd-okt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rqd-oUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mnginf" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-g3kEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOLIoUt9EeygyeJ-PesYNw" position="-978.9633861521987,116.93017843625154"/>
+      <stereotypes xmi:id="_Rqelskt9EeygyeJ-PesYNw" name="JoinColumns">
+        <modelElement href="TaskManager.uml#_Q-g3kUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqelsUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqelsEt9EeygyeJ-PesYNw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RqnIkEt9EeygyeJ-PesYNw" target="_RqnImEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q_xb0Et9EeygyeJ-PesYNw"/>
+    <nameVisual xmi:id="_RqnIkUt9EeygyeJ-PesYNw" text=""/>
+    <sourceRole xmi:id="_RqnIkkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="EndDate" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-ebUUt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqnIk0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIlEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RqnIlUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_Q_xb0Ut9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqnIlkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIl0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RrIF8Et9EeygyeJ-PesYNw" sourceAnchor="217.0,0.0" targetAnchor="345.0,43.0" target="_RrJ7IEt9EeygyeJ-PesYNw" source="_RsuocEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RB3tkUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN5b0Et9EeygyeJ-PesYNw" sourceY="-151" targetX="1750"/>
+    <stereotypes xmi:id="_RrItA0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RB9NIEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrItAEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOYkAEt9EeygyeJ-PesYNw" position="-27.2175144212722,22.973827713626406"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrItAUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RB3tkkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOX88Et9EeygyeJ-PesYNw" position="-18.96015510839146,-81.59366876077087"/>
+      <visibility xmi:id="_RrJUEUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrJUEEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrItAkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="repo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-JrMEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOYkAUt9EeygyeJ-PesYNw" position="1715.8933982822018,-49.034054609517625"/>
+      <stereotypes xmi:id="_RrJUFEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-KSQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrJUE0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrJUEkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RrNlgEt9EeygyeJ-PesYNw" sourceAnchor="0.0,70.0" targetAnchor="199.0,85.0" target="_RrPasEt9EeygyeJ-PesYNw" source="_RtKGQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RB90MEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN6C4Et9EeygyeJ-PesYNw" sourceX="-1175" targetY="125"/>
+    <stereotypes xmi:id="_RrOMk0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCDTwEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrOMkEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOaZMEt9EeygyeJ-PesYNw" position="1021.0627099472065,-4.775883728058922"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrOMkUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RB90MUt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOZyIEt9EeygyeJ-PesYNw" position="-62.325861179814865,-16.18846575077086"/>
+      <visibility xmi:id="_RrOzoUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrOzoEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrOMkkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="managerrepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-K5UEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOaZMUt9EeygyeJ-PesYNw" position="915.6338108231937,107.95207944107693"/>
+      <stereotypes xmi:id="_RrOzpEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-MHcEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrOzo0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrOzokt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RrSeAEt9EeygyeJ-PesYNw" sourceAnchor="270.0,0.0" targetAnchor="0.0,26.0" target="_RrWIYEt9EeygyeJ-PesYNw" source="_RtKGQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCDTwUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN6p8Et9EeygyeJ-PesYNw" sourceY="-83" targetX="-925"/>
+    <stereotypes xmi:id="_RrUTMUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCIMQEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrTsIEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SObnUEt9EeygyeJ-PesYNw" position="-26.700000000000045,-90.60000000000002"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrTsIUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCDTwkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SObAQEt9EeygyeJ-PesYNw" position="-18.90000000000009,-82.19999999999999"/>
+      <visibility xmi:id="_RrU6QUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrU6QEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrUTMEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="taskrepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-MHckt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SObnUUt9EeygyeJ-PesYNw" position="-972.0999999999999,-208.8"/>
+      <stereotypes xmi:id="_RrU6REt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-MugEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrU6Q0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrU6Qkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RrTFEEt9EeygyeJ-PesYNw" sourceAnchor="44.0,177.0" targetAnchor="61.0,0.0" target="_RrWIYEt9EeygyeJ-PesYNw" source="_RtgEgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCmGUUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN7RAkt9EeygyeJ-PesYNw" sourceY="133" targetX="-520" targetY="1387"/>
+    <bendpoints xmi:id="_SN7RA0t9EeygyeJ-PesYNw" sourceX="-2125" sourceY="133" targetX="-2645" targetY="1387"/>
+    <bendpoints xmi:id="_SN74EEt9EeygyeJ-PesYNw" sourceX="-2125" sourceY="-1331" targetX="-2645" targetY="-77"/>
+    <bendpoints xmi:id="_SN74EUt9EeygyeJ-PesYNw" sourceX="520" sourceY="-1331" targetY="-77"/>
+    <stereotypes xmi:id="_RrUTNUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCtbEEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrUTMkt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOfRsEt9EeygyeJ-PesYNw" position="2109.612020682055,806.0025624724312"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrUTM0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCmGUkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOeqoEt9EeygyeJ-PesYNw" position="2.39785482931336,28.74175152809994"/>
+      <visibility xmi:id="_RrU6Rkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrU6RUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrUTNEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="trepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-UqUkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOfRsUt9EeygyeJ-PesYNw" position="-535.8259597697146,1602.0299440862107"/>
+      <stereotypes xmi:id="_RrVhUUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-VRYEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrVhUEt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RrU6R0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RreEMEt9EeygyeJ-PesYNw" sourceAnchor="0.0,119.0" targetAnchor="222.0,85.0" target="_RsjCQEt9EeygyeJ-PesYNw" source="_RreEOUt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCtbEUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN2_kkt9EeygyeJ-PesYNw" sourceX="-965" targetY="178"/>
+    <stereotypes xmi:id="_RreEMUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RC0v0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RreEMkt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOOL8Et9EeygyeJ-PesYNw" position="944.781094298564,-16.257365471103412"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RreEM0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCtbEkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SONk4Et9EeygyeJ-PesYNw" position="-52.99233292973838,-37.53405752770607"/>
+      <visibility xmi:id="_RreENEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RreENUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RreENkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="userdetailsservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-WfgEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOOL8Ut9EeygyeJ-PesYNw" position="938.6061880224179,140.76636335635703"/>
+      <visibility xmi:id="_RreEN0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RreEOEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RrpDUEt9EeygyeJ-PesYNw" sourceAnchor="215.0,108.0" targetAnchor="222.0,85.0" target="_RsJZoEt9EeygyeJ-PesYNw" source="_RrpqYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBFDYUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN3moEt9EeygyeJ-PesYNw" sourceY="374" targetX="1414" targetY="537"/>
+    <bendpoints xmi:id="_SN3moUt9EeygyeJ-PesYNw" sourceX="-1414" sourceY="374" targetY="537"/>
+    <stereotypes xmi:id="_RrpDUUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBNmQEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrpDUkt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOPaEEt9EeygyeJ-PesYNw" position="691.4789255438112,-331.11623342388555"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrpDU0t9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBFDYkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOOzAEt9EeygyeJ-PesYNw" position="1.4665097510620626,28.90598543712406"/>
+      <visibility xmi:id="_RrpDVEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrpDVUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrpDVkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="managerdetailsservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q9_6MEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOPaEUt9EeygyeJ-PesYNw" position="1341.53202192927,182.47223177516594"/>
+      <visibility xmi:id="_RrpDV0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrpDWEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rrui4Et9EeygyeJ-PesYNw" sourceAnchor="204.0,0.0" targetAnchor="444.0,42.0" target="_RsjCQEt9EeygyeJ-PesYNw" source="_Rrw_IEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBNmQUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN3mokt9EeygyeJ-PesYNw" sourceY="-98" targetX="458"/>
+    <stereotypes xmi:id="_RrvJ80t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBWJIEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RrvJ8Et9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOQoMEt9EeygyeJ-PesYNw" position="-25.793545279075488,72.92063998690361"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RrvJ8Ut9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBNmQkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOQBIEt9EeygyeJ-PesYNw" position="-18.18272251599933,-83.15574689250127"/>
+      <visibility xmi:id="_RrvxAUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrvxAEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RrvJ8kt9EeygyeJ-PesYNw" aggregationKind="NONE" name="userdetailsservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-CWcEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOQoMUt9EeygyeJ-PesYNw" position="381.74375602179134,101.4525355901493"/>
+      <visibility xmi:id="_RrvxA0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrvxAkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rr2esEt9EeygyeJ-PesYNw" sourceAnchor="0.0,112.0" targetAnchor="91.0,157.0" target="_RqVbwEt9EeygyeJ-PesYNw" source="_Rr9MYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBWJIUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN4NsEt9EeygyeJ-PesYNw" sourceX="-326" targetY="848"/>
+    <stereotypes xmi:id="_Rr4T4kt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBdd4Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rr3s0Et9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOSdYEt9EeygyeJ-PesYNw" position="245.27788701846544,-5.564274837771222"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rr4T4Et9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBWJIkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOR2UEt9EeygyeJ-PesYNw" position="-64.09286913022743,-17.01954043282558"/>
+      <visibility xmi:id="_Rr6wIUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr6wIEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rr4T4Ut9EeygyeJ-PesYNw" aggregationKind="NONE" name="emp" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-ELoEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOTEcEt9EeygyeJ-PesYNw" position="243.30238681482092,831.0567504466444"/>
+      <visibility xmi:id="_Rr6wI0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_Rr6wIkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RsFvQEt9EeygyeJ-PesYNw" sourceAnchor="0.0,42.0" targetAnchor="139.0,85.0" target="_RrPasEt9EeygyeJ-PesYNw" source="_RsJZoEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBeE8Et9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN4NsUt9EeygyeJ-PesYNw" sourceX="-225" targetY="723"/>
+    <stereotypes xmi:id="_RsG9Y0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBmn0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RsG9YEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOUSkEt9EeygyeJ-PesYNw" position="149.6902032046578,-4.525389381003038"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RsG9YUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBeE8Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOTrgEt9EeygyeJ-PesYNw" position="-64.17953357418446,-16.94815733503276"/>
+      <visibility xmi:id="_RsHkcUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsHkcEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RsG9Ykt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mrepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-GA0Et9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOUSkUt9EeygyeJ-PesYNw" position="146.0262412312427,705.7746974801431"/>
+      <visibility xmi:id="_RsHkc0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RsHkckt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RsRVcEt9EeygyeJ-PesYNw" sourceAnchor="454.0,112.0" targetAnchor="165.0,134.0" target="_Rqels0t9EeygyeJ-PesYNw" source="_RsYqMEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBmn0Ut9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN40wEt9EeygyeJ-PesYNw" sourceX="988" targetY="1093"/>
+    <stereotypes xmi:id="_RsTxskt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RBwY0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RsTKoUt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOVgsUt9EeygyeJ-PesYNw" position="-908.1,-16.299999999999955"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RsTxsEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBmn0kt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOVgsEt9EeygyeJ-PesYNw" position="46.7,-37.90000000000009"/>
+      <visibility xmi:id="_RsWN8Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsVm4Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RsTxsUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="minfo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-HO8Et9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOWHwEt9EeygyeJ-PesYNw" position="-876.2,1055.4"/>
+      <visibility xmi:id="_RsWN8kt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RsWN8Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RsTKoEt9EeygyeJ-PesYNw" dashed="true" subClass="_RsYqMEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q9MB4Et9EeygyeJ-PesYNw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RsXcEEt9EeygyeJ-PesYNw" dashed="true" subClass="_Rr9MYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q9KMsEt9EeygyeJ-PesYNw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rsf-8Et9EeygyeJ-PesYNw" sourceAnchor="0.0,42.0" targetAnchor="142.0,85.0" target="_RrJ7IEt9EeygyeJ-PesYNw" source="_RsjCQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RBw_4Et9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN40wUt9EeygyeJ-PesYNw" sourceX="-133" targetY="538"/>
+    <stereotypes xmi:id="_RshNE0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RB3tkEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RshNEEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOWu0Ut9EeygyeJ-PesYNw" position="-2.037368991034782,-4.118113632899281"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RshNEUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RBw_4Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOWu0Et9EeygyeJ-PesYNw" position="-63.235600284364864,-16.643163537535543"/>
+      <visibility xmi:id="_Rsh0IUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rsh0IEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RshNEkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="erepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-IdEEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOXV4Et9EeygyeJ-PesYNw" position="-62.41760710296512,521.480688523049"/>
+      <visibility xmi:id="_Rsh0I0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_Rsh0Ikt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rsq-EEt9EeygyeJ-PesYNw" sourceAnchor="191.0,0.0" targetAnchor="0.0,88.0" target="_RsuocEt9EeygyeJ-PesYNw" source="_RtgEgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCYq8Ut9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN6p80t9EeygyeJ-PesYNw" sourceY="-857" targetX="-24"/>
+    <stereotypes xmi:id="_RsszQ0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCfYoEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RsszQEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOc1cEt9EeygyeJ-PesYNw" position="-16.967488820565677,737.3998671566754"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RsszQUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCYq8kt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOcOYEt9EeygyeJ-PesYNw" position="0.4968963559939539,-69.85924758490762"/>
+      <visibility xmi:id="_RsuBYUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsuBYEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RsszQkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="eservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-S1IEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOc1cUt9EeygyeJ-PesYNw" position="-50.09355642476544,649.7135286990672"/>
+      <stereotypes xmi:id="_RsuBZEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-TcMEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsuBY0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RsuBYkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rs3yYEt9EeygyeJ-PesYNw" sourceAnchor="0.0,123.0" targetAnchor="204.0,154.0" target="_Rs8q4Et9EeygyeJ-PesYNw" source="_RqVbwEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q_wNsEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN1xcUt9EeygyeJ-PesYNw" sourceX="-1386" targetY="250"/>
+    <nameVisual xmi:id="_Rs5nkEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOJTcEt9EeygyeJ-PesYNw" position="1241.8182109365669,-16.571639904811462"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rs5nkUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="allEmployees" navigable="true">
+      <modelElement href="TaskManager.uml#_QcnEYEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOIsYEt9EeygyeJ-PesYNw" position="-97.16697534714854,-37.25250292679864"/>
+      <visibility xmi:id="_Rs7cwUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs7cwEt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rs5nkkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_Q_wNsUt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOJTcUt9EeygyeJ-PesYNw" position="1140.035512724643,211.6894827574332"/>
+      <visibility xmi:id="_Rs8D0Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs7cwkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Rs5AgEt9EeygyeJ-PesYNw" sourceAnchor="425.0,0.0" targetAnchor="204.0,0.0" dashed="true" superClass="_Rs8q4Et9EeygyeJ-PesYNw" subClass="_RsuocEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q3fpkEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN5b0Ut9EeygyeJ-PesYNw" sourceY="-239" targetX="2990" targetY="-30"/>
+    <bendpoints xmi:id="_SN5b0kt9EeygyeJ-PesYNw" sourceX="-2990" sourceY="-239" targetY="-30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RtFNwEt9EeygyeJ-PesYNw" sourceAnchor="0.0,5.0" targetAnchor="0.0,130.0" target="_RtKGQEt9EeygyeJ-PesYNw" source="_RtgEgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCfYoUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN7RAEt9EeygyeJ-PesYNw" sourceX="-707" targetX="-15" targetY="843"/>
+    <bendpoints xmi:id="_SN7RAUt9EeygyeJ-PesYNw" sourceX="-707" sourceY="-843" targetX="-15"/>
+    <stereotypes xmi:id="_RtHqA0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCmGUEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_RtHqAEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOeDkEt9EeygyeJ-PesYNw" position="471.62339668860307,408.92747753774495"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RtHqAUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCfYokt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOdcgEt9EeygyeJ-PesYNw" position="-48.795793566216844,-34.70785871827559"/>
+      <visibility xmi:id="_RtI4IUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtI4IEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RtHqAkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-TcMkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOeDkUt9EeygyeJ-PesYNw" position="263.4837804828087,807.8645658298643"/>
+      <stereotypes xmi:id="_RtI4JEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-UqUEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtI4I0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RtI4Ikt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RtUeUEt9EeygyeJ-PesYNw" sourceAnchor="240.0,0.0" targetAnchor="196.0,0.0" dashed="true" superClass="_RtW6kEt9EeygyeJ-PesYNw" subClass="_RtKGQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q3nlYEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN6p8Ut9EeygyeJ-PesYNw" sourceY="-246" targetX="2378" targetY="-37"/>
+    <bendpoints xmi:id="_SN6p8kt9EeygyeJ-PesYNw" sourceX="-2378" sourceY="-246" targetY="-37"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RtpOcEt9EeygyeJ-PesYNw" sourceAnchor="181.0,24.0" targetAnchor="0.0,5.0" target="_Rttf4Et9EeygyeJ-PesYNw" source="_RqnImEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q_txcEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN2_kEt9EeygyeJ-PesYNw" sourceX="282" targetX="-934" targetY="228"/>
+    <bendpoints xmi:id="_SN2_kUt9EeygyeJ-PesYNw" sourceX="282" sourceY="-228" targetX="-934"/>
+    <nameVisual xmi:id="_RtrDoEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOM90Et9EeygyeJ-PesYNw" position="-85.73882348351643,108.16395915629411"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RtrDoUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="allTasks" navigable="true">
+      <modelElement href="TaskManager.uml#_QcGuEEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOMWwEt9EeygyeJ-PesYNw" position="11.278555211228138,-18.123990805986693"/>
+      <visibility xmi:id="_Rts40Ut9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rts40Et9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RtrDokt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_Q_uYgEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOM90Ut9EeygyeJ-PesYNw" position="-859.358304576848,210.18464059767547"/>
+      <visibility xmi:id="_Rts400t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rts40kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_RtqckEt9EeygyeJ-PesYNw" sourceAnchor="74.0,177.0" targetAnchor="177.0,154.0" dashed="true" superClass="_Rttf4Et9EeygyeJ-PesYNw" subClass="_RtgEgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Q5JPYEt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN74Ekt9EeygyeJ-PesYNw" sourceY="327" targetX="-1726" targetY="1220"/>
+    <bendpoints xmi:id="_SN74E0t9EeygyeJ-PesYNw" sourceX="1726" sourceY="327" targetY="1220"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RtyYYEt9EeygyeJ-PesYNw" sourceAnchor="0.0,43.0" targetAnchor="172.0,85.0" target="_RrJ7IEt9EeygyeJ-PesYNw" source="_Rt00oEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCIMQUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN74FEt9EeygyeJ-PesYNw" sourceX="-241" targetY="98"/>
+    <stereotypes xmi:id="_RtzmgEt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCNEwEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rty_cEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOgf0Et9EeygyeJ-PesYNw" position="36.036326528316295,-4.047739971019254"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rty_cUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCIMQkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOf4wEt9EeygyeJ-PesYNw" position="-61.22368313375728,-16.477735536014066"/>
+      <visibility xmi:id="_Rt0NkEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtzmgUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rty_ckt9EeygyeJ-PesYNw" aggregationKind="NONE" name="empservice" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-OjsEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOhG4Et9EeygyeJ-PesYNw" position="-111.97468537700252,80.69894295614141"/>
+      <visibility xmi:id="_Rt0Nkkt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rt0NkUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rt4fAEt9EeygyeJ-PesYNw" sourceAnchor="0.0,42.0" targetAnchor="169.0,85.0" target="_RrPasEt9EeygyeJ-PesYNw" source="_Rt7iUEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCNr0Et9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN8fIEt9EeygyeJ-PesYNw" sourceX="-627" targetY="215"/>
+    <stereotypes xmi:id="_Rt5tI0t9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCTLYEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rt5tIEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOht8Et9EeygyeJ-PesYNw" position="422.77044743616716,-3.4500698802156364"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rt5tIUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCNr0Ut9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOhG4Ut9EeygyeJ-PesYNw" position="-60.49878976022546,-15.592674559229238"/>
+      <visibility xmi:id="_Rt6UMUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rt6UMEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rt5tIkt9EeygyeJ-PesYNw" aggregationKind="NONE" name="mrepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-Px0Et9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOiVAEt9EeygyeJ-PesYNw" position="290.71218415203884,199.04644119548692"/>
+      <visibility xmi:id="_Rt6UM0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rt6UMkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Rt-loEt9EeygyeJ-PesYNw" sourceAnchor="0.0,42.0" targetAnchor="122.0,27.0" target="_RrWIYEt9EeygyeJ-PesYNw" source="_RuBB4Et9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_RCTLYUt9EeygyeJ-PesYNw"/>
+    <bendpoints xmi:id="_SN9GMEt9EeygyeJ-PesYNw" sourceX="-220" targetX="-1362" targetY="860"/>
+    <bendpoints xmi:id="_SN9GMUt9EeygyeJ-PesYNw" sourceX="-220" sourceY="724" targetX="-1362" targetY="1584"/>
+    <bendpoints xmi:id="_SN9GMkt9EeygyeJ-PesYNw" sourceX="2778" sourceY="724" targetX="1636" targetY="1584"/>
+    <bendpoints xmi:id="_SN9GM0t9EeygyeJ-PesYNw" sourceX="2778" sourceY="-860" targetX="1636"/>
+    <stereotypes xmi:id="_Rt_zwUt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_RCYq8Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Rt_MsEt9EeygyeJ-PesYNw" text="">
+      <visualProperties xmi:id="_SOjjIEt9EeygyeJ-PesYNw" position="-1526.5132589060415,-727.8913382359559"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Rt_MsUt9EeygyeJ-PesYNw" aggregationKind="NONE" name="">
+      <modelElement href="TaskManager.uml#_RCTLYkt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOi8EEt9EeygyeJ-PesYNw" position="-61.817216080553635,-16.192439619447782"/>
+      <visibility xmi:id="_Rt_zw0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rt_zwkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Rt_zwEt9EeygyeJ-PesYNw" aggregationKind="NONE" name="taskrepo" navigable="true">
+      <modelElement href="TaskManager.uml#_Q-RnAEt9EeygyeJ-PesYNw"/>
+      <visualProperties xmi:id="_SOjjIUt9EeygyeJ-PesYNw" position="-1571.4163581680439,843.6597918856562"/>
+      <visibility xmi:id="_RuAa0Ut9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RuAa0Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RmNwwEt9EeygyeJ-PesYNw" name="MavenWrapperDownloader">
+    <modelElement href="TaskManager.uml#_QYyUUEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RmNwwUt9EeygyeJ-PesYNw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RmNwwkt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RmNww0t9EeygyeJ-PesYNw" defaultValue="&quot;0.5.6&quot;" name="WRAPPER_VERSION" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q9p78Et9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNwxEt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNwxUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RmNwxkt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RmNwx0t9EeygyeJ-PesYNw" defaultValue="&quot;https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/&quot;&#xD;&#xA;        + WRAPPER_VERSION + &quot;/maven-wrapper-&quot; + WRAPPER_VERSION + &quot;.jar&quot;" name="DEFAULT_DOWNLOAD_URL" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q9rKEEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNwyEt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNwyUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RmNwykt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RmNwy0t9EeygyeJ-PesYNw" defaultValue="&quot;.mvn/wrapper/maven-wrapper.properties&quot;" name="MAVEN_WRAPPER_PROPERTIES_PATH" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q9rxIUt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNwzEt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNwzUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RmNwzkt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RmNwz0t9EeygyeJ-PesYNw" defaultValue="&quot;.mvn/wrapper/maven-wrapper.jar&quot;" name="MAVEN_WRAPPER_JAR_PATH" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q9sYMUt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNw0Et9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNw0Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RmNw0kt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RmNw00t9EeygyeJ-PesYNw" defaultValue="&quot;wrapperUrl&quot;" name="PROPERTY_NAME_WRAPPER_URL" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q9s_QUt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNw1Et9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNw1Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RmNw1kt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RmNw10t9EeygyeJ-PesYNw" name="main" staticOperation="true">
+      <modelElement href="TaskManager.uml#_QY_vsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RmNw2Et9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QZCzAEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RmNw2Ut9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RmNw2kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RmNw20t9EeygyeJ-PesYNw" name="args">
+        <modelElement href="TaskManager.uml#_QY_vsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RmNw3Et9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_RmNw3Ut9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RmNw3kt9EeygyeJ-PesYNw" name="downloadFileFromURL" staticOperation="true">
+      <modelElement href="TaskManager.uml#_Q8al0Ut9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RmNw30t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RmNw4Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RmNw4Ut9EeygyeJ-PesYNw" name="urlString">
+        <modelElement href="TaskManager.uml#_Q8al0kt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RmNw4kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RmNw40t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RmNw5Et9EeygyeJ-PesYNw" name="destination">
+        <modelElement href="TaskManager.uml#_Q8bM4Et9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RmNw5Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RmNw5kt9EeygyeJ-PesYNw" name="File">
+          <modelElement href="TaskManager.uml#_Q8NxgEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RofBoEt9EeygyeJ-PesYNw" name="Exception">
+    <modelElement href="TaskManager.uml#_Q8T4IEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RofBoUt9EeygyeJ-PesYNw" position="261.0,568.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RofBokt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_Q8al0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RofBo0t9EeygyeJ-PesYNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ro0_6Ut9EeygyeJ-PesYNw" name="EmployeeController" associationsOut="_RoyjoEt9EeygyeJ-PesYNw _Ro0_4Et9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Qc_e4Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Ro0_6kt9EeygyeJ-PesYNw" position="488.0,1092.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Ro0_60t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QdAF8Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Ro0_7Et9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QdCiMEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_Ro0_7Ut9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Ro0_7kt9EeygyeJ-PesYNw" name="eservice">
+      <modelElement href="TaskManager.uml#_Q-pacEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro0_70t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-qBgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro0_8Et9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Ro0_8Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ro0_8kt9EeygyeJ-PesYNw" name="EmployeeService">
+        <modelElement href="TaskManager.uml#_QbtFcEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ro0_80t9EeygyeJ-PesYNw" name="tservice">
+      <modelElement href="TaskManager.uml#_Q-qokEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro0_9Et9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-rPoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro0_9Ut9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Ro0_9kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ro0_90t9EeygyeJ-PesYNw" name="TaskService">
+        <modelElement href="TaskManager.uml#_QcbeMEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ro0_-Et9EeygyeJ-PesYNw" name="ecreateTask">
+      <modelElement href="TaskManager.uml#_Q73zQEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro0_-Ut9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q75BYEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro0_-kt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro0_-0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ro0__Et9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q74aUEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Ro0__Ut9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ro0__kt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q73zQUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro0__0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AAEt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ro1AAUt9EeygyeJ-PesYNw" name="validateEmployee">
+      <modelElement href="TaskManager.uml#_Q9Y2MEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro1AAkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9ZdQUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro1AA0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro1ABEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ro1ABUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9ZdQEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Ro1ABkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ro1AB0t9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q9Y2MUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1ACEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1ACUt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ro1ACkt9EeygyeJ-PesYNw" name="validateEmployee">
+      <modelElement href="TaskManager.uml#_Q9aEUEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro1AC0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9bSckt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro1ADEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro1ADUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ro1ADkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9arYEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Ro1AD0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ro1AEEt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Q9aEUUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AEUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AEkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ro1AE0t9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q9aEUkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AFEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AFUt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ro1AFkt9EeygyeJ-PesYNw" name="createEmployee">
+      <modelElement href="TaskManager.uml#_Q9b5gEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro1AF0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9dHokt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro1AGEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro1AGUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ro1AGkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9cgkUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Ro1AG0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ro1AHEt9EeygyeJ-PesYNw" name="einfo">
+        <modelElement href="TaskManager.uml#_Q9b5gUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AHUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AHkt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ro1AH0t9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q9cgkEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AIEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AIUt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ro1AIkt9EeygyeJ-PesYNw" name="eupdateTask">
+      <modelElement href="TaskManager.uml#_Q9eVwEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro1AI0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9fj4Ut9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro1AJEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro1AJUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ro1AJkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9e80Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Ro1AJ0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Ro1AKEt9EeygyeJ-PesYNw" name="tid">
+        <modelElement href="TaskManager.uml#_Q9eVwUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AKUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1AKkt9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Ro1AK0t9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q9eVwkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1ALEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1ALUt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ro1ALkt9EeygyeJ-PesYNw" name="endSession">
+      <modelElement href="TaskManager.uml#_Q9gK8Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Ro1AL0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9iAIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Ro1AMEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Ro1AMUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ro1AMkt9EeygyeJ-PesYNw" name="status">
+        <modelElement href="TaskManager.uml#_Q9gK8Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Ro1AM0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Ro1ANEt9EeygyeJ-PesYNw" name="SessionStatus">
+          <modelElement href="TaskManager.uml#_Q7wegEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RpP2oEt9EeygyeJ-PesYNw" name="Exception">
+    <modelElement href="TaskManager.uml#_Q8oBMEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RpP2oUt9EeygyeJ-PesYNw" position="401.0,568.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RpP2okt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_Q8s5sEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RpP2o0t9EeygyeJ-PesYNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RpaOsEt9EeygyeJ-PesYNw" name="HomeController" associationsOut="_RpSS4Et9EeygyeJ-PesYNw _RpZnoEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QZJgsEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RpaOsUt9EeygyeJ-PesYNw" position="-1048.0,147.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RpaOskt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QZLV4Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RpaOs0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QZZYUEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RpaOtEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RpaOtUt9EeygyeJ-PesYNw" name="eservice">
+      <modelElement href="TaskManager.uml#_Q9tmUUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaOtkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9u0cEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaOt0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpaOuEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RpaOuUt9EeygyeJ-PesYNw" name="EmployeeService">
+        <modelElement href="TaskManager.uml#_QbtFcEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RpaOukt9EeygyeJ-PesYNw" name="mservice">
+      <modelElement href="TaskManager.uml#_Q9u0ckt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaOu0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9vbgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaOvEt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpaOvUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RpaOvkt9EeygyeJ-PesYNw" name="ManagerService">
+        <modelElement href="TaskManager.uml#_Qb3dgEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RpaOv0t9EeygyeJ-PesYNw" name="home">
+      <modelElement href="TaskManager.uml#_QZL88Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaOwEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QZPAQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaOwUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaOwkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaOw0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QZNLEEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaOxEt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RpaOxUt9EeygyeJ-PesYNw" name="employeeLogin">
+      <modelElement href="TaskManager.uml#_QZQOYEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaOxkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QZRcgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaOx0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaOyEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaOyUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QZQ1cEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaOykt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RpaOy0t9EeygyeJ-PesYNw" name="registerEmployee">
+      <modelElement href="TaskManager.uml#_QZRcg0t9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaOzEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QZSqoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaOzUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaOzkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaOz0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QZSDkEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaO0Et9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RpaO0Ut9EeygyeJ-PesYNw" name="managerLogin">
+      <modelElement href="TaskManager.uml#_QZT4wEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaO0kt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QZVt8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaO00t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaO1Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaO1Ut9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QZUf0Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaO1kt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RpaO10t9EeygyeJ-PesYNw" name="createManager">
+      <modelElement href="TaskManager.uml#_QZVt80t9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaO2Et9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QZW8EEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaO2Ut9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaO2kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaO20t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QZWVAEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaO3Et9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RpaO3Ut9EeygyeJ-PesYNw" name="createEmployee">
+      <modelElement href="TaskManager.uml#_Q8dpIEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaO3kt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8e3QUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaO30t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaO4Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaO4Ut9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8eQMEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaO4kt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpaO40t9EeygyeJ-PesYNw" name="einfo">
+        <modelElement href="TaskManager.uml#_Q8dpIUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpaO5Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpaO5Ut9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpaO5kt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8dpIkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpaO50t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpaO6Et9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpaO6Ut9EeygyeJ-PesYNw" name="createManager">
+      <modelElement href="TaskManager.uml#_Q8gFYEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpaO6kt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8hTgUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpaO60t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpaO7Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpaO7Ut9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8gscEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpaO7kt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpaO70t9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q8gFYUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpaO8Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpaO8Ut9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpaO8kt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8gFYkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpaO80t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpaO9Et9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RpzQQEt9EeygyeJ-PesYNw" name="ManagerController" associationsOut="_RpoRIEt9EeygyeJ-PesYNw _RpoRIUt9EeygyeJ-PesYNw _Rpo4MEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QZh7MEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RpzQQUt9EeygyeJ-PesYNw" position="-2000.0,1092.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RpzQQkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QZjJUEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RpzQQ0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QZrsMEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RpzQREt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RpzQRUt9EeygyeJ-PesYNw" name="eservice">
+      <modelElement href="TaskManager.uml#_Q9wpoEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQRkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9xQsEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQR0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpzQSEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RpzQSUt9EeygyeJ-PesYNw" name="EmployeeService">
+        <modelElement href="TaskManager.uml#_QbtFcEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RpzQSkt9EeygyeJ-PesYNw" name="mservice">
+      <modelElement href="TaskManager.uml#_Q9x3wUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQS0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9ye0Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQTEt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpzQTUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RpzQTkt9EeygyeJ-PesYNw" name="ManagerService">
+        <modelElement href="TaskManager.uml#_Qb3dgEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RpzQT0t9EeygyeJ-PesYNw" name="tservice">
+      <modelElement href="TaskManager.uml#_Q9ye0kt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQUEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9zF4Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQUUt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RpzQUkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RpzQU0t9EeygyeJ-PesYNw" name="TaskService">
+        <modelElement href="TaskManager.uml#_QcbeMEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RpzQVEt9EeygyeJ-PesYNw" name="createManager">
+      <modelElement href="TaskManager.uml#_QzWJYEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQVUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QzX-kkt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQVkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQV0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQWEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QzXXgEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQWUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQWkt9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_QzWwcEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQW0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQXEt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQXUt9EeygyeJ-PesYNw" name="createTask">
+      <modelElement href="TaskManager.uml#_QzZMsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQXkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qzc3EEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQX0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQYEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQYUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QzZzwUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQYkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQY0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_QzZMsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQZEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQZUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQZkt9EeygyeJ-PesYNw" name="Enddate">
+        <modelElement href="TaskManager.uml#_QzZMskt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQZ0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQaEt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQaUt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_QzZMs0t9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQakt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQa0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQbEt9EeygyeJ-PesYNw" name="AssignedBy">
+        <modelElement href="TaskManager.uml#_QzZzwEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQbUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQbkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQb0t9EeygyeJ-PesYNw" name="validateManager">
+      <modelElement href="TaskManager.uml#_Q8jIsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQcEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8kW0Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQcUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQckt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQc0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8jvwEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQdEt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQdUt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8jIsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQdkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQd0t9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQeEt9EeygyeJ-PesYNw" name="postManager">
+      <modelElement href="TaskManager.uml#_Q8k94Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQeUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8lk8kt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQekt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQe0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQfEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8k940t9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQfUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQfkt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8k94Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQf0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQgEt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQgUt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Q8k94kt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQgkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQg0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQhEt9EeygyeJ-PesYNw" name="registerTask">
+      <modelElement href="TaskManager.uml#_Q8mMAEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQhUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8mzEUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQhkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQh0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQiEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8mzEEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQiUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQikt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8mMAUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQi0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQjEt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQjUt9EeygyeJ-PesYNw" name="updateTask">
+      <modelElement href="TaskManager.uml#_Q8s5sUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQjkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8uH00t9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQj0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQkEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQkUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8tgwkt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQkkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQk0t9EeygyeJ-PesYNw" name="tid">
+        <modelElement href="TaskManager.uml#_Q8tgwEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQlEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQlUt9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQlkt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8tgwUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQl0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQmEt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RpzQmUt9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_Q8uu4Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RpzQmkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8v9AEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RpzQm0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RpzQnEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RpzQnUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q8vV8Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RpzQnkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RpzQn0t9EeygyeJ-PesYNw" name="tid">
+        <modelElement href="TaskManager.uml#_Q8uu4Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQoEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQoUt9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RpzQokt9EeygyeJ-PesYNw" name="m">
+        <modelElement href="TaskManager.uml#_Q8uu4kt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RpzQo0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RpzQpEt9EeygyeJ-PesYNw" name="Model">
+          <modelElement href="TaskManager.uml#_Qx_egEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RqDu8Et9EeygyeJ-PesYNw" name="TaskManagerApplication">
+    <modelElement href="TaskManager.uml#_QZ5HkEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RqDu8Ut9EeygyeJ-PesYNw" position="552.0,543.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RqDu8kt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QZ5uoEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RqDu80t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QZ9ZAEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RqDu9Et9EeygyeJ-PesYNw" label="+"/>
+    <operations xmi:id="_RqDu9Ut9EeygyeJ-PesYNw" name="main" staticOperation="true">
+      <modelElement href="TaskManager.uml#_QZ6VsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqDu9kt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_QZ8x8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqDu90t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqDu-Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RqDu-Ut9EeygyeJ-PesYNw" name="args">
+        <modelElement href="TaskManager.uml#_QZ6VsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RqDu-kt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_RqDu-0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RqJ1mUt9EeygyeJ-PesYNw" name="ControllerAspect" associationsOut="_RqJ1kEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QZ-AEUt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RqJ1mkt9EeygyeJ-PesYNw" position="80.0,987.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RqJ1m0t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QaAcUEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RqJ1nEt9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QaC4kEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RqJ1nUt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RqJ1nkt9EeygyeJ-PesYNw" defaultValue="LogManager.getLogger(ControllerAspect.class)" name="log" staticAttribute="true">
+      <modelElement href="TaskManager.uml#_Q907EEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqJ1n0t9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q91iIUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqJ1oEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqJ1oUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqJ1okt9EeygyeJ-PesYNw" name="Logger">
+        <modelElement href="TaskManager.uml#_Q0Cs8Ut9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RqJ1o0t9EeygyeJ-PesYNw" name="beforeAdvice">
+      <modelElement href="TaskManager.uml#_Q8xyMEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqJ1pEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q8yZQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqJ1pUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqJ1pkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RqJ1p0t9EeygyeJ-PesYNw" name="joinPoint">
+        <modelElement href="TaskManager.uml#_Q8xyMUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RqJ1qEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RqJ1qUt9EeygyeJ-PesYNw" name="JoinPoint">
+          <modelElement href="TaskManager.uml#_Q0JaoEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RqVbwEt9EeygyeJ-PesYNw" name="EmployeeInfo" associationsIn="_RqRKUEt9EeygyeJ-PesYNw _Rr2esEt9EeygyeJ-PesYNw" associationsOut="_Rs3yYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RqVbwUt9EeygyeJ-PesYNw" position="-1668.0,-13.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RqVbwkt9EeygyeJ-PesYNw" name="JPA1StyledElement">
+      <modelElement href="TaskManager.uml#_QaJmQEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RqVbw0t9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RqVbxEt9EeygyeJ-PesYNw" name="eid">
+      <modelElement href="TaskManager.uml#_Q92JMEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqVbxUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q92wQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RqVbxkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q94lcUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqVbx0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVbyEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqVbyUt9EeygyeJ-PesYNw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqVbykt9EeygyeJ-PesYNw" name="ename">
+      <modelElement href="TaskManager.uml#_Q95Mgkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqVby0t9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q95zkEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqVbzEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVbzUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqVbzkt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqVbz0t9EeygyeJ-PesYNw" name="email">
+      <modelElement href="TaskManager.uml#_Q96aoEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqVb0Et9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q96aoUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqVb0Ut9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVb0kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqVb00t9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqVb1Et9EeygyeJ-PesYNw" name="password">
+      <modelElement href="TaskManager.uml#_Q97BsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqVb1Ut9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q97owEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqVb1kt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVb10t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqVb2Et9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqVb2Ut9EeygyeJ-PesYNw" name="designation">
+      <modelElement href="TaskManager.uml#_Q97owUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqVb2kt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q98P0Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqVb20t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVb3Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqVb3Ut9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqVb3kt9EeygyeJ-PesYNw" defaultValue="new ArrayList&lt;>()" name="tasks">
+      <modelElement href="TaskManager.uml#_Q98P0Ut9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqVb30t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqVb4Et9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_RqVb4Ut9EeygyeJ-PesYNw" name="TaskInfo">
+        <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rqels0t9EeygyeJ-PesYNw" name="ManagerInfo" associationsIn="_RqcJcEt9EeygyeJ-PesYNw _RsRVcEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RqeltEt9EeygyeJ-PesYNw" position="662.0,10.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RqeltUt9EeygyeJ-PesYNw" name="JPA1StyledElement">
+      <modelElement href="TaskManager.uml#_Qc70gEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_Rqeltkt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rqelt0t9EeygyeJ-PesYNw" name="mid">
+      <modelElement href="TaskManager.uml#_Q-jT0Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqeluEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q-kh8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RqeluUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-lwEEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rqelukt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rqelu0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqelvEt9EeygyeJ-PesYNw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqelvUt9EeygyeJ-PesYNw" name="mname">
+      <modelElement href="TaskManager.uml#_Q-mXIEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rqelvkt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-mXIUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rqelv0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqelwEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqelwUt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rqelwkt9EeygyeJ-PesYNw" name="email">
+      <modelElement href="TaskManager.uml#_Q-mXIkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rqelw0t9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-m-MEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqelxEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqelxUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rqelxkt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Rqelx0t9EeygyeJ-PesYNw" name="password">
+      <modelElement href="TaskManager.uml#_Q-m-MUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqelyEt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-nlQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqelyUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rqelykt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rqely0t9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqelzEt9EeygyeJ-PesYNw" defaultValue="new ArrayList&lt;>()" name="tasks">
+      <modelElement href="TaskManager.uml#_Q-nlQUt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqelzUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rqelzkt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rqelz0t9EeygyeJ-PesYNw" name="TaskInfo">
+        <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RqnImEt9EeygyeJ-PesYNw" name="TaskInfo" associationsIn="_RqnIkEt9EeygyeJ-PesYNw" associationsOut="_RqRKUEt9EeygyeJ-PesYNw _RqcJcEt9EeygyeJ-PesYNw _RtpOcEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RqnImUt9EeygyeJ-PesYNw" position="-478.0,199.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RqnImkt9EeygyeJ-PesYNw" name="JPA1StyledElement">
+      <modelElement href="TaskManager.uml#_Qc0fwEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RqnIm0t9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RqnInEt9EeygyeJ-PesYNw" name="empinf">
+      <modelElement href="TaskManager.uml#_Q99d8Et9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqnInUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnInkt9EeygyeJ-PesYNw" label="0..1" max="1"/>
+      <type xmi:id="_RqnIn0t9EeygyeJ-PesYNw" name="EmployeeInfo">
+        <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnIoEt9EeygyeJ-PesYNw" name="TaskId">
+      <modelElement href="TaskManager.uml#_Q-Zi0Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqnIoUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q-aJ4Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RqnIokt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-b_EUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqnIo0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIpEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqnIpUt9EeygyeJ-PesYNw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnIpkt9EeygyeJ-PesYNw" name="TaskName">
+      <modelElement href="TaskManager.uml#_Q-cmIkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqnIp0t9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-dNMEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqnIqEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIqUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqnIqkt9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnIq0t9EeygyeJ-PesYNw" name="Description">
+      <modelElement href="TaskManager.uml#_Q-dNMUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqnIrEt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-d0QEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqnIrUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIrkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqnIr0t9EeygyeJ-PesYNw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnIsEt9EeygyeJ-PesYNw" name="Progress">
+      <modelElement href="TaskManager.uml#_Q-d0QUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqnIsUt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-ebUEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqnIskt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIs0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqnItEt9EeygyeJ-PesYNw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnItUt9EeygyeJ-PesYNw" name="EndDate">
+      <modelElement href="TaskManager.uml#_Q-ebUUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RqnItkt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q-ebUkt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RqnIt0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIuEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RqnIuUt9EeygyeJ-PesYNw" name="Date">
+        <modelElement href="TaskManager.uml#_Q4xb8Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RqnIukt9EeygyeJ-PesYNw" name="mnginf">
+      <modelElement href="TaskManager.uml#_Q-g3kEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RqnIu0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RqnIvEt9EeygyeJ-PesYNw" label="0..1" max="1"/>
+      <type xmi:id="_RqnIvUt9EeygyeJ-PesYNw" name="ManagerInfo">
+        <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RrJ7IEt9EeygyeJ-PesYNw" name="EmployeeRepository" associationsIn="_RrIF8Et9EeygyeJ-PesYNw _Rsf-8Et9EeygyeJ-PesYNw _RtyYYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaPF0Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RrJ7IUt9EeygyeJ-PesYNw" position="-2367.0,-279.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RrJ7Ikt9EeygyeJ-PesYNw" label="+"/>
+    <operations xmi:id="_RrJ7I0t9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_QaRiEEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RrJ7JEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrJ7JUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RrJ7Jkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q1YwwEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RrJ7J0t9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RrJ7KEt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_QaRiEUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RrJ7KUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RrJ7Kkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RrPasEt9EeygyeJ-PesYNw" name="ManagerRepository" associationsIn="_RrNlgEt9EeygyeJ-PesYNw _RsFvQEt9EeygyeJ-PesYNw _Rt4fAEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaTXQEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RrPasUt9EeygyeJ-PesYNw" position="-2770.0,-248.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RrPaskt9EeygyeJ-PesYNw" label="+"/>
+    <operations xmi:id="_RrPas0t9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_QaVMcEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RrPatEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrPatUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RrPatkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q1ZX0Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RrPat0t9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RrPauEt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_QaVMcUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RrPauUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RrPaukt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RrWIYEt9EeygyeJ-PesYNw" name="TaskRepository" associationsIn="_RrSeAEt9EeygyeJ-PesYNw _RrTFEEt9EeygyeJ-PesYNw _Rt-loEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaWakEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RrWIYUt9EeygyeJ-PesYNw" position="-201.0,-217.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RrWIYkt9EeygyeJ-PesYNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RrYkoEt9EeygyeJ-PesYNw" name="AppSecurityConfig">
+    <modelElement href="TaskManager.uml#_QcrV0Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RrYkoUt9EeygyeJ-PesYNw" position="585.0,696.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RrYkokt9EeygyeJ-PesYNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RreEOUt9EeygyeJ-PesYNw" name="Config1" associationsOut="_RreEMEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QctLAEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RreEOkt9EeygyeJ-PesYNw" position="-905.0,446.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_RreEO0t9EeygyeJ-PesYNw" keyword="static"/>
+    <visibility xmi:id="_RreEPEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RreEPUt9EeygyeJ-PesYNw" name="userdetailsservice">
+      <modelElement href="TaskManager.uml#_Q-WfgEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RreEPkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q-XtoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RreEP0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-YUsEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RreEQEt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RreEQUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RreEQkt9EeygyeJ-PesYNw" name="MyUserDetailsService">
+        <modelElement href="TaskManager.uml#_Qbm-0Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RreEQ0t9EeygyeJ-PesYNw" name="authProvider">
+      <modelElement href="TaskManager.uml#_QctyEkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RreEREt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QcuZIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RreERUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcvAMEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RreERkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RreER0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RreESEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9SIh0t9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RreESUt9EeygyeJ-PesYNw" name="AuthenticationProvider">
+          <modelElement href="TaskManager.uml#_Q2Uk4Ut9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RreESkt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9SvlEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RreES0t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q9TWoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RreETEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9T9sEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RreETUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RreETkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RreET0t9EeygyeJ-PesYNw" name="web">
+        <modelElement href="TaskManager.uml#_Q9Svlkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RreEUEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RreEUUt9EeygyeJ-PesYNw" name="WebSecurity">
+          <modelElement href="TaskManager.uml#_Q6BZIEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RreEUkt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9UkwEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RreEU0t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q9Ukwkt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RreEVEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9VL0Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RreEVUt9EeygyeJ-PesYNw" label="#"/>
+      <cardinality xmi:id="_RreEVkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RreEV0t9EeygyeJ-PesYNw" name="http">
+        <modelElement href="TaskManager.uml#_Q9UkwUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RreEWEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RreEWUt9EeygyeJ-PesYNw" name="HttpSecurity">
+          <modelElement href="TaskManager.uml#_Q1uH8Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RrpqYEt9EeygyeJ-PesYNw" name="Config1" associationsOut="_RrpDUEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaYPwEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RrpqYUt9EeygyeJ-PesYNw" position="-985.0,658.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RrpqYkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QaY20Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RrpqY0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QaaE8Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RrpqZEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RrpqZUt9EeygyeJ-PesYNw" name="managerdetailsservice">
+      <modelElement href="TaskManager.uml#_Q9_6MEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RrpqZkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-BIUEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrpqZ0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RrpqaEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RrpqaUt9EeygyeJ-PesYNw" name="ManagerDetailsService">
+        <modelElement href="TaskManager.uml#_QbEzUEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rrpqakt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9FUMEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rrpqa0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9F7QEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RrpqbEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrpqbUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rrpqbkt9EeygyeJ-PesYNw" name="auth">
+        <modelElement href="TaskManager.uml#_Q9FUMUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rrpqb0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RrpqcEt9EeygyeJ-PesYNw" name="AuthenticationManagerBuilder">
+          <modelElement href="TaskManager.uml#_Q1naQUt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RrpqcUt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9GiUEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rrpqckt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9HJYEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rrpqc0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RrpqdEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RrpqdUt9EeygyeJ-PesYNw" name="http">
+        <modelElement href="TaskManager.uml#_Q9GiUUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rrpqdkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rrpqd0t9EeygyeJ-PesYNw" name="HttpSecurity">
+          <modelElement href="TaskManager.uml#_Q1uH8Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rrw_IEt9EeygyeJ-PesYNw" name="Config2" associationsOut="_Rrui4Et9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QaeWYEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rrw_IUt9EeygyeJ-PesYNw" position="-1394.0,442.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rrw_Ikt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QafkgEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rrw_I0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QahZsEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_Rrw_JEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rrw_JUt9EeygyeJ-PesYNw" name="userdetailsservice">
+      <modelElement href="TaskManager.uml#_Q-CWcEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rrw_Jkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-C9gEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rrw_J0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_Rrw_KEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rrw_KUt9EeygyeJ-PesYNw" name="MyUserDetailsService">
+        <modelElement href="TaskManager.uml#_Qbm-0Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rrw_Kkt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9HwcEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rrw_K0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9IXgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rrw_LEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rrw_LUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rrw_Lkt9EeygyeJ-PesYNw" name="auth">
+        <modelElement href="TaskManager.uml#_Q9HwcUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rrw_L0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rrw_MEt9EeygyeJ-PesYNw" name="AuthenticationManagerBuilder">
+          <modelElement href="TaskManager.uml#_Q1naQUt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rrw_MUt9EeygyeJ-PesYNw" name="configure">
+      <modelElement href="TaskManager.uml#_Q9I-kEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rrw_Mkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q9JloEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rrw_M0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rrw_NEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rrw_NUt9EeygyeJ-PesYNw" name="http">
+        <modelElement href="TaskManager.uml#_Q9I-kUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rrw_Nkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rrw_N0t9EeygyeJ-PesYNw" name="HttpSecurity">
+          <modelElement href="TaskManager.uml#_Q1uH8Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rr9MYEt9EeygyeJ-PesYNw" name="EmployeePrincipal" associationsOut="_Rr2esEt9EeygyeJ-PesYNw" generalizations="_RsXcEEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QalEEEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rr9MYUt9EeygyeJ-PesYNw" position="-1251.0,880.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Rr9MYkt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rr9MY0t9EeygyeJ-PesYNw" name="emp">
+      <modelElement href="TaskManager.uml#_Q-ELoEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9MZEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q-EysEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9MZUt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_Rr9MZkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rr9MZ0t9EeygyeJ-PesYNw" name="EmployeeInfo">
+        <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rr9MaEt9EeygyeJ-PesYNw" name="getAuthorities">
+      <modelElement href="TaskManager.uml#_QamSMEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9MaUt9EeygyeJ-PesYNw" name="Generics">
+        <modelElement href="TaskManager.uml#_Qa5NIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9Makt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qa50MEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9Ma0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qa6bQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9MbEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9MbUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9Mbkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9KzwEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9Mb0t9EeygyeJ-PesYNw" name="Collection">
+          <modelElement href="TaskManager.uml#_Q2lqoEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9McEt9EeygyeJ-PesYNw" name="getPassword">
+      <modelElement href="TaskManager.uml#_Qa7CUEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9McUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qa7pYEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9Mckt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qa8QcEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9Mc0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9MdEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9MdUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qa7CUUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9Mdkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9Md0t9EeygyeJ-PesYNw" name="getUsername">
+      <modelElement href="TaskManager.uml#_Qa8Qckt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9MeEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qa83gEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9MeUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qa9ekEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9Mekt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9Me0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9MfEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qa8Qc0t9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9MfUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9Mfkt9EeygyeJ-PesYNw" name="isAccountNonExpired">
+      <modelElement href="TaskManager.uml#_Qa9ekkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9Mf0t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qa-ssEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9MgEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qa-ssUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9MgUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9Mgkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9Mg0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qa-FoEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9MhEt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9MhUt9EeygyeJ-PesYNw" name="isAccountNonLocked">
+      <modelElement href="TaskManager.uml#_Qa_TwUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9Mhkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qa_60Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9Mh0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbAh4Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9MiEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9MiUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9Mikt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qa_Twkt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9Mi0t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9MjEt9EeygyeJ-PesYNw" name="isCredentialsNonExpired">
+      <modelElement href="TaskManager.uml#_QbAh4kt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9MjUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbBI8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9Mjkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbBI8Ut9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9Mj0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9MkEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9MkUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbAh40t9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9Mkkt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9Mk0t9EeygyeJ-PesYNw" name="isEnabled">
+      <modelElement href="TaskManager.uml#_QbBwAUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rr9MlEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbCXEEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Rr9MlUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbCXEUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rr9Mlkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9Ml0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9MmEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbBwAkt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9MmUt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rr9Mmkt9EeygyeJ-PesYNw" name="EmployeePrincipal">
+      <modelElement href="TaskManager.uml#_Q3GoAEt9EeygyeJ-PesYNw"/>
+      <keywords xmi:id="_Rr9Mm0t9EeygyeJ-PesYNw" keyword="create"/>
+      <visibility xmi:id="_Rr9MnEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rr9MnUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rr9Mnkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3GoBEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rr9Mn0t9EeygyeJ-PesYNw" name="EmployeePrincipal">
+          <modelElement href="TaskManager.uml#_QalEEEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rr9MoEt9EeygyeJ-PesYNw" name="emp">
+        <modelElement href="TaskManager.uml#_Q3GoAUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rr9MoUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rr9Mokt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RsJZoEt9EeygyeJ-PesYNw" name="ManagerDetailsService" associationsIn="_RrpDUEt9EeygyeJ-PesYNw" associationsOut="_RsFvQEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QbEzUEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RsJZoUt9EeygyeJ-PesYNw" position="-2406.0,518.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RsJZokt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QbGBcEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RsJZo0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QbJEwEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RsJZpEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RsJZpUt9EeygyeJ-PesYNw" name="mrepo">
+      <modelElement href="TaskManager.uml#_Q-GA0Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsJZpkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-Gn4Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsJZp0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RsJZqEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RsJZqUt9EeygyeJ-PesYNw" name="ManagerRepository">
+        <modelElement href="TaskManager.uml#_QaTXQEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RsJZqkt9EeygyeJ-PesYNw" name="loadUserByUsername">
+      <modelElement href="TaskManager.uml#_QbHPkEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsJZq0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbIdsEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsJZrEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsJZrUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsJZrkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9La0Ut9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsJZr0t9EeygyeJ-PesYNw" name="UserDetails">
+          <modelElement href="TaskManager.uml#_Q3AhYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RsJZsEt9EeygyeJ-PesYNw" name="username">
+        <modelElement href="TaskManager.uml#_QbHPkUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RsJZsUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsJZskt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RsO5MEt9EeygyeJ-PesYNw" name="UsernameNotFoundException">
+    <modelElement href="TaskManager.uml#_Q3IdMEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RsO5MUt9EeygyeJ-PesYNw" position="-247.0,706.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RsO5Mkt9EeygyeJ-PesYNw" name="Reference">
+      <modelElement href="TaskManager.uml#_Q3Oj0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RsO5M0t9EeygyeJ-PesYNw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RsYqMEt9EeygyeJ-PesYNw" name="ManagerPrincipal" associationsOut="_RsRVcEt9EeygyeJ-PesYNw" generalizations="_RsTKoEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QbK58Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RsYqMUt9EeygyeJ-PesYNw" position="-615.0,1125.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RsYqMkt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RsYqM0t9EeygyeJ-PesYNw" name="minfo">
+      <modelElement href="TaskManager.uml#_Q-HO8Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqNEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Q-H2AEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqNUt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RsYqNkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RsYqN0t9EeygyeJ-PesYNw" name="ManagerInfo">
+        <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RsYqOEt9EeygyeJ-PesYNw" name="getAuthorities">
+      <modelElement href="TaskManager.uml#_QbMvIEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqOUt9EeygyeJ-PesYNw" name="Generics">
+        <modelElement href="TaskManager.uml#_QbaKgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqOkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbaxkEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqO0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbbYoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqPEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqPUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqPkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9Mo8Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqP0t9EeygyeJ-PesYNw" name="Collection">
+          <modelElement href="TaskManager.uml#_Q2lqoEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqQEt9EeygyeJ-PesYNw" name="getPassword">
+      <modelElement href="TaskManager.uml#_Qbb_sEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqQUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbcmwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqQkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbcmwUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqQ0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqREt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqRUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qbb_sUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqRkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqR0t9EeygyeJ-PesYNw" name="getUsername">
+      <modelElement href="TaskManager.uml#_QbdN0Ut9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqSEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_Qbd04Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqSUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qbeb8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqSkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqS0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqTEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbdN0kt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqTUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqTkt9EeygyeJ-PesYNw" name="isAccountNonExpired">
+      <modelElement href="TaskManager.uml#_QbfDAEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqT0t9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbgRIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqUEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbgRIUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqUUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqUkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqU0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbfqEEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqVEt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqVUt9EeygyeJ-PesYNw" name="isAccountNonLocked">
+      <modelElement href="TaskManager.uml#_Qbg4MEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqVkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbhfQEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqV0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbiGUEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqWEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqWUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqWkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qbg4MUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqW0t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqXEt9EeygyeJ-PesYNw" name="isCredentialsNonExpired">
+      <modelElement href="TaskManager.uml#_QbiGUkt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqXUt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbjUcEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqXkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbjUcUt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqX0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqYEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqYUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbitYEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqYkt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqY0t9EeygyeJ-PesYNw" name="isEnabled">
+      <modelElement href="TaskManager.uml#_Qbj7gEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsYqZEt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+        <modelElement href="TaskManager.uml#_QbkikEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_RsYqZUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QblJoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsYqZkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqZ0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqaEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qbj7gUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqaUt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RsYqakt9EeygyeJ-PesYNw" name="ManagerPrincipal">
+      <modelElement href="TaskManager.uml#_Q3XGsEt9EeygyeJ-PesYNw"/>
+      <keywords xmi:id="_RsYqa0t9EeygyeJ-PesYNw" keyword="create"/>
+      <visibility xmi:id="_RsYqbEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsYqbUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsYqbkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3XGtEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsYqb0t9EeygyeJ-PesYNw" name="ManagerPrincipal">
+          <modelElement href="TaskManager.uml#_QbK58Et9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RsYqcEt9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q3XGsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RsYqcUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsYqckt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RsjCQEt9EeygyeJ-PesYNw" name="MyUserDetailsService" associationsIn="_Rrui4Et9EeygyeJ-PesYNw _RreEMEt9EeygyeJ-PesYNw" associationsOut="_Rsf-8Et9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Qbm-0Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RsjCQUt9EeygyeJ-PesYNw" position="-2092.0,302.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RsjCQkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QboM8Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RsjCQ0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QbrQQEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RsjCREt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RsjCRUt9EeygyeJ-PesYNw" name="erepo">
+      <modelElement href="TaskManager.uml#_Q-IdEEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsjCRkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-JEIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsjCR0t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RsjCSEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RsjCSUt9EeygyeJ-PesYNw" name="EmployeeRepository">
+        <modelElement href="TaskManager.uml#_QaPF0Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RsjCSkt9EeygyeJ-PesYNw" name="loadUserByUsername">
+      <modelElement href="TaskManager.uml#_Qbo0AEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsjCS0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbqCIEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsjCTEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsjCTUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsjCTkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q9N3EEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsjCT0t9EeygyeJ-PesYNw" name="UserDetails">
+          <modelElement href="TaskManager.uml#_Q3AhYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RsjCUEt9EeygyeJ-PesYNw" name="username">
+        <modelElement href="TaskManager.uml#_QbpbEEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RsjCUUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsjCUkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RsuocEt9EeygyeJ-PesYNw" name="EmployeeService" associationsIn="_RpSS4Et9EeygyeJ-PesYNw _RpoRIEt9EeygyeJ-PesYNw _RoyjoEt9EeygyeJ-PesYNw _Rsq-EEt9EeygyeJ-PesYNw" associationsOut="_RrIF8Et9EeygyeJ-PesYNw" generalizations="_Rs5AgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QbtFcEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RsuocUt9EeygyeJ-PesYNw" position="-489.0,-85.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rsuockt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QbuTkEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rsuoc0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QbylAEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RsuodEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RsuodUt9EeygyeJ-PesYNw" name="repo">
+      <modelElement href="TaskManager.uml#_Q-JrMEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rsuodkt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_Rsuod0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RsuoeEt9EeygyeJ-PesYNw" name="EmployeeRepository">
+        <modelElement href="TaskManager.uml#_QaPF0Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RsuoeUt9EeygyeJ-PesYNw" name="getAllEmployees">
+      <modelElement href="TaskManager.uml#_Qbu6oEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rsuoekt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QbwIwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rsuoe0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsuofEt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RsuofUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_QbvhsEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rsuofkt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Rsuof0t9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_Qbwv0Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsuogEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qbx98Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsuogUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rsuogkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rsuog0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3is4Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsuohEt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RsuohUt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Qbwv0Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rsuohkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rsuoh0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RsuoiEt9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q3g3sEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsuoiUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3iF0Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rsuoikt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rsuoi0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RsuojEt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3hewEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RsuojUt9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rsuojkt9EeygyeJ-PesYNw" name="emp">
+        <modelElement href="TaskManager.uml#_Q3g3sUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rsuoj0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsuokEt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RsuokUt9EeygyeJ-PesYNw" name="addTask">
+      <modelElement href="TaskManager.uml#_Q3jT8Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rsuokkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3j7AEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rsuok0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RsuolEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RsuolUt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3jT8Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rsuolkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rsuol0t9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RsuomEt9EeygyeJ-PesYNw" name="empinfo">
+        <modelElement href="TaskManager.uml#_Q3jT8kt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RsuomUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rsuomkt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rsuom0t9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_Q3kiEUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RsuonEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3lwMEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RsuonUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rsuonkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rsuon0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3kiEkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RsuooEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsuooUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rsuookt9EeygyeJ-PesYNw" name="empinfo">
+        <modelElement href="TaskManager.uml#_Q3lJIEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rsuoo0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RsuopEt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rs8q4Et9EeygyeJ-PesYNw" name="EmployeeServiceInterface" associationsIn="_Rs3yYEt9EeygyeJ-PesYNw" subclassedBy="_Rs5AgEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Qcl2QEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rs8q4Ut9EeygyeJ-PesYNw" position="-3258.0,-294.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Rs8q4kt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rs8q40t9EeygyeJ-PesYNw" name="allEmployees">
+      <modelElement href="TaskManager.uml#_QcnEYEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rs8q5Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs8q5Ut9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rs8q5kt9EeygyeJ-PesYNw" name="EmployeeInfo">
+        <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rs8q50t9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_QcoSgEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rs8q6Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs8q6Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rs8q6kt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q5UOgUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rs8q60t9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rs8q7Et9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_QcoSgUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8q7Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8q7kt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rs8q70t9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q5TAYEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rs8q8Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs8q8Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rs8q8kt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q5UOgEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rs8q80t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rs8q9Et9EeygyeJ-PesYNw" name="emp">
+        <modelElement href="TaskManager.uml#_Q5TncEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8q9Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8q9kt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rs8q90t9EeygyeJ-PesYNw" name="addTask">
+      <modelElement href="TaskManager.uml#_Q5U1kEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rs8q-Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs8q-Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rs8q-kt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q5U1kUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8q-0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8q_Et9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rs8q_Ut9EeygyeJ-PesYNw" name="empinfo">
+        <modelElement href="TaskManager.uml#_Q5U1kkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8q_kt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8q_0t9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rs8rAEt9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_Q5VcoEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rs8rAUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rs8rAkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rs8rA0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q5WDsEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8rBEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8rBUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rs8rBkt9EeygyeJ-PesYNw" name="empinfo">
+        <modelElement href="TaskManager.uml#_Q5WDsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rs8rB0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rs8rCEt9EeygyeJ-PesYNw" name="EmployeeInfo">
+          <modelElement href="TaskManager.uml#_QaF74Et9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RtKGQEt9EeygyeJ-PesYNw" name="ManagerService" associationsIn="_RpZnoEt9EeygyeJ-PesYNw _RpoRIUt9EeygyeJ-PesYNw _RtFNwEt9EeygyeJ-PesYNw" associationsOut="_RrNlgEt9EeygyeJ-PesYNw _RrSeAEt9EeygyeJ-PesYNw" generalizations="_RtUeUEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_Qb3dgEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RtKGQUt9EeygyeJ-PesYNw" position="-1396.0,-108.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RtKGQkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_Qb4EkEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RtKGQ0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_Qb89EEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RtKGREt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RtKGRUt9EeygyeJ-PesYNw" name="managerrepo">
+      <modelElement href="TaskManager.uml#_Q-K5UEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtKGRkt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RtKGR0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RtKGSEt9EeygyeJ-PesYNw" name="ManagerRepository">
+        <modelElement href="TaskManager.uml#_QaTXQEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RtKGSUt9EeygyeJ-PesYNw" name="taskrepo">
+      <modelElement href="TaskManager.uml#_Q-MHckt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtKGSkt9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RtKGS0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RtKGTEt9EeygyeJ-PesYNw" name="TaskRepository">
+        <modelElement href="TaskManager.uml#_QaWakEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RtKGTUt9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_Qb5SsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGTkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qb55wEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGT0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGUEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtKGUUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3qosEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtKGUkt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtKGU0t9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Qb5SsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGVEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGVUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtKGVkt9EeygyeJ-PesYNw" name="validateCredentials">
+      <modelElement href="TaskManager.uml#_Qb6g0Ut9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGV0t9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Qb7u8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGWEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGWUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtKGWkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qb7H4kt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtKGW0t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtKGXEt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Qb7H4Et9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGXUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGXkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtKGX0t9EeygyeJ-PesYNw" name="password">
+        <modelElement href="TaskManager.uml#_Qb7H4Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGYEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGYUt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtKGYkt9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q3ozgEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGY0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3qBoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGZEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGZUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtKGZkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3pakEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtKGZ0t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtKGaEt9EeygyeJ-PesYNw" name="manager">
+        <modelElement href="TaskManager.uml#_Q3ozgUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGaUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGakt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtKGa0t9EeygyeJ-PesYNw" name="saveTask">
+      <modelElement href="TaskManager.uml#_Q3qosUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGbEt9EeygyeJ-PesYNw" name="StyledElement">
+        <modelElement href="TaskManager.uml#_Q3rPwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGbUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGbkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtKGb0t9EeygyeJ-PesYNw" name="task">
+        <modelElement href="TaskManager.uml#_Q3qoskt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGcEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGcUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtKGckt9EeygyeJ-PesYNw" name="addTask">
+      <modelElement href="TaskManager.uml#_Q3rPwUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGc0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3sd4Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGdEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGdUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtKGdkt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3r20Et9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGd0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGeEt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtKGeUt9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q3r20Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGekt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGe0t9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtKGfEt9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_Q3sd4kt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtKGfUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q3tsAEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtKGfkt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtKGf0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtKGgEt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3tE8Et9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGgUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGgkt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtKGg0t9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q3tE8Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtKGhEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtKGhUt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_RtW6kEt9EeygyeJ-PesYNw" name="ManagerServiceInterface" subclassedBy="_RtUeUEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcB1kEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RtW6kUt9EeygyeJ-PesYNw" position="-3730.0,-317.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_RtW6kkt9EeygyeJ-PesYNw" label="+"/>
+    <operations xmi:id="_RtW6k0t9EeygyeJ-PesYNw" name="findByEmail">
+      <modelElement href="TaskManager.uml#_QcDDsEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtW6lEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtW6lUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtW6lkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3vhMUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtW6l0t9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtW6mEt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_QcDDsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6mUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6mkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtW6m0t9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q3u6IEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtW6nEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtW6nUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtW6nkt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3vhMEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtW6n0t9EeygyeJ-PesYNw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtW6oEt9EeygyeJ-PesYNw" name="manager">
+        <modelElement href="TaskManager.uml#_Q3u6IUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6oUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6okt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtW6o0t9EeygyeJ-PesYNw" name="addTask">
+      <modelElement href="TaskManager.uml#_Q3wIQEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtW6pEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtW6pUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtW6pkt9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3wIQUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6p0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6qEt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtW6qUt9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q3wIQkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6qkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6q0t9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtW6rEt9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_Q3wIQ0t9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtW6rUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtW6rkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtW6r0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3wIREt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6sEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6sUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtW6skt9EeygyeJ-PesYNw" name="minfo">
+        <modelElement href="TaskManager.uml#_Q3wIRUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtW6s0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtW6tEt9EeygyeJ-PesYNw" name="ManagerInfo">
+          <modelElement href="TaskManager.uml#_Qc6mYEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RtgEgEt9EeygyeJ-PesYNw" name="TaskService" associationsIn="_Rpo4MEt9EeygyeJ-PesYNw _Ro0_4Et9EeygyeJ-PesYNw" associationsOut="_Rsq-EEt9EeygyeJ-PesYNw _RtFNwEt9EeygyeJ-PesYNw _RrTFEEt9EeygyeJ-PesYNw" generalizations="_RtqckEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcbeMEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RtgEgUt9EeygyeJ-PesYNw" position="-704.0,860.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RtgEgkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QccsUEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RtgEg0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_Qchk0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RtgEhEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RtgEhUt9EeygyeJ-PesYNw" name="eservice">
+      <modelElement href="TaskManager.uml#_Q-S1IEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtgEhkt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RtgEh0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RtgEiEt9EeygyeJ-PesYNw" name="EmployeeService">
+        <modelElement href="TaskManager.uml#_QbtFcEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RtgEiUt9EeygyeJ-PesYNw" name="mservice">
+      <modelElement href="TaskManager.uml#_Q-TcMkt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtgEikt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RtgEi0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RtgEjEt9EeygyeJ-PesYNw" name="ManagerService">
+        <modelElement href="TaskManager.uml#_Qb3dgEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RtgEjUt9EeygyeJ-PesYNw" name="trepo">
+      <modelElement href="TaskManager.uml#_Q-UqUkt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RtgEjkt9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RtgEj0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RtgEkEt9EeygyeJ-PesYNw" name="TaskRepository">
+        <modelElement href="TaskManager.uml#_QaWakEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RtgEkUt9EeygyeJ-PesYNw" name="getAllTasks">
+      <modelElement href="TaskManager.uml#_Qcd6cEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtgEkkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcehgEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtgEk0t9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtgElEt9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_RtgElUt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Qcd6cUt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtgElkt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_RtgEl0t9EeygyeJ-PesYNw" name="getTask">
+      <modelElement href="TaskManager.uml#_QcfIkEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtgEmEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcfvoEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtgEmUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtgEmkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_RtgEm0t9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q5OH4Et9EeygyeJ-PesYNw"/>
+        <type xmi:id="_RtgEnEt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_RtgEnUt9EeygyeJ-PesYNw" name="tid">
+        <modelElement href="TaskManager.uml#_QcfIkUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEnkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEn0t9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtgEoEt9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_QcgWsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtgEoUt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Qcg9wEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtgEokt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtgEo0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtgEpEt9EeygyeJ-PesYNw" name="id">
+        <modelElement href="TaskManager.uml#_QcgWsUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEpUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEpkt9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtgEp0t9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q5LEkEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtgEqEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q5M5wEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtgEqUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtgEqkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtgEq0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q5LEkUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgErEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgErUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtgErkt9EeygyeJ-PesYNw" name="enddate">
+        <modelElement href="TaskManager.uml#_Q5LroEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEr0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEsEt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtgEsUt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Q5LroUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEskt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEs0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RtgEtEt9EeygyeJ-PesYNw" name="assignedby">
+        <modelElement href="TaskManager.uml#_Q5Lrokt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEtUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEtkt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RtgEt0t9EeygyeJ-PesYNw" name="updateProgress">
+      <modelElement href="TaskManager.uml#_Q5Ou8Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RtgEuEt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q5P9EEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RtgEuUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RtgEukt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RtgEu0t9EeygyeJ-PesYNw" name="ut">
+        <modelElement href="TaskManager.uml#_Q5Ou8Ut9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RtgEvEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RtgEvUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Rttf4Et9EeygyeJ-PesYNw" name="TaskServiceInterface" associationsIn="_RtpOcEt9EeygyeJ-PesYNw" subclassedBy="_RtqckEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcFf8Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rttf4Ut9EeygyeJ-PesYNw" position="919.0,-10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Rttf4kt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rttf40t9EeygyeJ-PesYNw" name="allTasks">
+      <modelElement href="TaskManager.uml#_QcGuEEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rttf5Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rttf5Ut9EeygyeJ-PesYNw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Rttf5kt9EeygyeJ-PesYNw" name="TaskInfo">
+        <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rttf50t9EeygyeJ-PesYNw" name="getTask">
+      <modelElement href="TaskManager.uml#_QcH8MEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rttf6Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rttf6Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Rttf6kt9EeygyeJ-PesYNw">
+        <modelElement href="TaskManager.uml#_Q3ykgEt9EeygyeJ-PesYNw"/>
+        <type xmi:id="_Rttf60t9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Rttf7Et9EeygyeJ-PesYNw" name="tid">
+        <modelElement href="TaskManager.uml#_QcIjQEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rttf7Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rttf7kt9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rttf70t9EeygyeJ-PesYNw" name="deleteTask">
+      <modelElement href="TaskManager.uml#_QcJKUEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rttf8Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rttf8Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rttf8kt9EeygyeJ-PesYNw" name="id">
+        <modelElement href="TaskManager.uml#_QcJKUUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rttf80t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rttf9Et9EeygyeJ-PesYNw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Rttf9Ut9EeygyeJ-PesYNw" name="saveOrUpdate">
+      <modelElement href="TaskManager.uml#_Q3xWYEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_Rttf9kt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rttf90t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Rttf-Et9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3xWYUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rttf-Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rttf-kt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rttf-0t9EeygyeJ-PesYNw" name="enddate">
+        <modelElement href="TaskManager.uml#_Q3xWYkt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rttf_Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_Rttf_Ut9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Rttf_kt9EeygyeJ-PesYNw" name="email">
+        <modelElement href="TaskManager.uml#_Q3xWY0t9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_Rttf_0t9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RttgAEt9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_RttgAUt9EeygyeJ-PesYNw" name="assignedby">
+        <modelElement href="TaskManager.uml#_Q3xWZEt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RttgAkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RttgA0t9EeygyeJ-PesYNw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_RttgBEt9EeygyeJ-PesYNw" name="updateProgress">
+      <modelElement href="TaskManager.uml#_Q3zLkEt9EeygyeJ-PesYNw"/>
+      <visibility xmi:id="_RttgBUt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RttgBkt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_RttgB0t9EeygyeJ-PesYNw" name="tinfo">
+        <modelElement href="TaskManager.uml#_Q3zLkUt9EeygyeJ-PesYNw"/>
+        <cardinality xmi:id="_RttgCEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+        <type xmi:id="_RttgCUt9EeygyeJ-PesYNw" name="TaskInfo">
+          <modelElement href="TaskManager.uml#_QcyqkEt9EeygyeJ-PesYNw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rt00oEt9EeygyeJ-PesYNw" name="EmployeeInfoTests" associationsOut="_RtyYYEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcK_gEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rt00oUt9EeygyeJ-PesYNw" position="-1954.0,-139.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rt00okt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QcMNoEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rt00o0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QcOC0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_Rt00pEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rt00pUt9EeygyeJ-PesYNw" name="empservice">
+      <modelElement href="TaskManager.uml#_Q-OjsEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rt00pkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-PKwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rt00p0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rt00qEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt00qUt9EeygyeJ-PesYNw" name="EmployeeRepository">
+        <modelElement href="TaskManager.uml#_QaPF0Et9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rt00qkt9EeygyeJ-PesYNw" name="testFindByEmail">
+      <modelElement href="TaskManager.uml#_QcM0sEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rt00q0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcNbwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rt00rEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rt00rUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Rt7iUEt9EeygyeJ-PesYNw" name="ManagerInfoTests" associationsOut="_Rt4fAEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcPQ8Et9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_Rt7iUUt9EeygyeJ-PesYNw" position="-1974.0,10.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Rt7iUkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QcQfEUt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Rt7iU0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QcSUQEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_Rt7iVEt9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_Rt7iVUt9EeygyeJ-PesYNw" name="mrepo">
+      <modelElement href="TaskManager.uml#_Q-Px0Et9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rt7iVkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-Q_8Et9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rt7iV0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_Rt7iWEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_Rt7iWUt9EeygyeJ-PesYNw" name="ManagerRepository">
+        <modelElement href="TaskManager.uml#_QaTXQEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Rt7iWkt9EeygyeJ-PesYNw" name="testFindByEmail">
+      <modelElement href="TaskManager.uml#_QcRGIEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_Rt7iW0t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcRtMEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_Rt7iXEt9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_Rt7iXUt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RuBB4Et9EeygyeJ-PesYNw" name="TaskInfoTests" associationsOut="_Rt-loEt9EeygyeJ-PesYNw">
+    <modelElement href="TaskManager.uml#_QcXz0kt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RuBB4Ut9EeygyeJ-PesYNw" position="-1221.0,628.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RuBB4kt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QcZB8Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RuBB40t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QcaQEEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RuBB5Et9EeygyeJ-PesYNw" label="+"/>
+    <attributes xmi:id="_RuBB5Ut9EeygyeJ-PesYNw" name="taskrepo">
+      <modelElement href="TaskManager.uml#_Q-RnAEt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RuBB5kt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_Q-SOEEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RuBB50t9EeygyeJ-PesYNw" label="-"/>
+      <cardinality xmi:id="_RuBB6Et9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+      <type xmi:id="_RuBB6Ut9EeygyeJ-PesYNw" name="TaskRepository">
+        <modelElement href="TaskManager.uml#_QaWakEt9EeygyeJ-PesYNw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_RuBB6kt9EeygyeJ-PesYNw" name="testGetTask">
+      <modelElement href="TaskManager.uml#_QcZB8Ut9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RuBB60t9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcZpAEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RuBB7Et9EeygyeJ-PesYNw" label="+"/>
+      <cardinality xmi:id="_RuBB7Ut9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_RuFTUEt9EeygyeJ-PesYNw" name="TaskManagerApplicationTests">
+    <modelElement href="TaskManager.uml#_QcTiYEt9EeygyeJ-PesYNw"/>
+    <visualProperties xmi:id="_RuFTUUt9EeygyeJ-PesYNw" position="591.0,783.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_RuFTUkt9EeygyeJ-PesYNw" name="LegacyStyledElement">
+      <modelElement href="TaskManager.uml#_QcWlsEt9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_RuFTU0t9EeygyeJ-PesYNw" name="Annotations">
+      <modelElement href="TaskManager.uml#_QcXz0Et9EeygyeJ-PesYNw"/>
+    </stereotypes>
+    <visibility xmi:id="_RuFTVEt9EeygyeJ-PesYNw" label="~"/>
+    <operations xmi:id="_RuFTVUt9EeygyeJ-PesYNw" name="contextLoads">
+      <modelElement href="TaskManager.uml#_QcWlsUt9EeygyeJ-PesYNw"/>
+      <stereotypes xmi:id="_RuFTVkt9EeygyeJ-PesYNw" name="Annotations">
+        <modelElement href="TaskManager.uml#_QcXMwEt9EeygyeJ-PesYNw"/>
+      </stereotypes>
+      <visibility xmi:id="_RuFTV0t9EeygyeJ-PesYNw" label="~"/>
+      <cardinality xmi:id="_RuFTWEt9EeygyeJ-PesYNw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
