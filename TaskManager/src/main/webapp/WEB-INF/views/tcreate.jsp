@@ -12,7 +12,7 @@
 	
 	<title>Create Task</title>
 </head>
-<body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
+<body>
 	
 	<div class="center">
 			
@@ -26,8 +26,6 @@
 				</div>
 				
 				<div class="txt_field">
-					<!-- <input type="text" name="Description" required/>
-					<label>Task Description</label> -->
 					
 					<textarea name="description" rows="4" cols="70" placeholder="Task Description" required style="margin: 0px; width: 318px; height: 70px;"></textarea>
 					

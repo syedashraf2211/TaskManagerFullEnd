@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="/ctask.css">
 	
 </head>
-<body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
+<body >
 	
 	<div class="center">
 			

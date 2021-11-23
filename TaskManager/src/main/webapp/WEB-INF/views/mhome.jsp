@@ -8,8 +8,9 @@
 	<meta charset="ISO-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Manager Home Page</title>
+	
 	<link rel="stylesheet" href="/chome.css">
-
+	
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 	  <a href="#home">Task Manager</a>
 	  <div class="dropdown" style="float: right;">
 	    <button class="dropbtn">Welcome, <c:out value="${mmail}"/>
-	      <i class="fa fa-caret-down"></i>
+	      
 	    </button>
 	    <div class="dropdown-content">
 	      <a href="/mng/logout" >Logout</a>
@@ -55,8 +56,8 @@
 					      <td>${task.getEndDate()}</td>
 					      <td>${task.getEmpinf().getEmail()}</td>
 					      <td>${task.getProgress()}</td>
-					      <td> <button id="button" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
-					      <td> <button id="button" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
+					      <td> <button id="btn1" class="bi bi-pencil-square" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
+					      <td> <button id="btn1" class="bi bi-trash" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
 				    </tr>
 			   	</c:if>
 		    </c:forEach>

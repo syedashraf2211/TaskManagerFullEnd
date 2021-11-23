@@ -8,20 +8,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Employee Home Page</title>
 	<link rel="stylesheet" href="/chome.css">
+	
 </head>
 <body>
+
+
 			<!--    NAVIGATION BAR   -->
-	<div class="navbar" style="margin-bottom:10px;">
-	  <a href="#home">Task Manager</a>
-	  <div class="dropdown" style="float: right;">
-	    <button class="dropbtn">Welcome, <c:out value="${empmail}"/>
-	      <i class="fa fa-caret-down"></i>
-	    </button>
-	    <div class="dropdown-content">
-	      <a href="/emp/logout" >Logout</a>
-	    </div>
-	  </div>
-	</div>
+			
+		 <div class="navbar" style="margin-bottom:10px;">
+		  <a href="#home">Task Manager</a>
+		  <div class="dropdown float-right" style="float: right;">
+		    <button class="dropbtn">Welcome, <c:out value="${empmail}"/> </button>
+		    <div class="dropdown-content">
+		      <a href="/emp/logout" >Logout</a>
+		    </div>
+		  </div>
+		  </div>
 	
 				<!-- 	 Task Details 	 -->
     <c:set var = "email" value = "${mmail}" scope = "session" />
@@ -46,12 +48,13 @@
 					      <td>${task.getEndDate()}</td>
 					      <td>${task.getMnginf().getEmail()}</td>
 					      <td>${task.getProgress()}</td>
-					      <td> <button id="button" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'">Update</button> </td>
+					      <td> <button id="btn1" class="bi bi-pencil-square" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'">Update</button> </td>
 				    </tr>
 			   	</c:if>
 		    </c:forEach>
 		  </tbody>
 		</table>
 	</div> 
+
 </body>
 </html>

@@ -12,6 +12,8 @@ body{
   padding: 0;
   height: 100vh;
   overflow: hidden;
+  background-image: url(task.jpg);
+  background-size: cover;
 }
 
 								/* FORM STYLING*/
