@@ -15,13 +15,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 @Configuration
 @Order(1)
 public class Config1 extends WebSecurityConfigurerAdapter {
-	/*
-	@Override
-	public void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication()
-			.withUser("admin@gmail.com").password("{noop}password").roles("ADMIN");
-	}
-	*/
+	
 	
 	@Autowired
 	private ManagerDetailsService managerdetailsservice;
@@ -41,9 +35,6 @@ public class Config1 extends WebSecurityConfigurerAdapter {
 		.permitAll()
 		.and().
 		logout().logoutUrl("/mng/logout").logoutSuccessUrl("/");
-		/*logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-		.logoutSuccessUrl("/").deleteCookies("JSESSIONID")
-		.invalidateHttpSession(true); */
 	http.csrf().disable();
 
 	}

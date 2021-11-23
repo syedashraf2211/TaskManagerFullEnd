@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.ManagerDTO;
 import com.training.TaskManager.model.ManagerInfo;
 import com.training.TaskManager.service.EmployeeService;
 import com.training.TaskManager.service.ManagerService;
@@ -61,9 +62,8 @@ public class HomeController
 	}
 	
 	@RequestMapping("/mcreate")
-	public String createManager(@ModelAttribute ManagerInfo minfo,Model m)
+	public String createManager(@ModelAttribute ManagerDTO minfo,Model m)
 	{
-		//System.out.println(minfo.getMname());
 		boolean status = mservice.saveOrUpdate(minfo);
 		if(!status)
 			m.addAttribute("message", "User Already Exist! Please login");

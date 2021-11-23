@@ -1,5 +1,6 @@
 package com.training.TaskManager.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,12 +9,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import org.springframework.stereotype.Component;
-
 
 @Entity
-//@Component
-public class ManagerInfo 
+
+public class ManagerInfo implements Serializable
 {
 	@Id
 	@GeneratedValue
@@ -35,17 +34,17 @@ public class ManagerInfo
 	public int getMid() {
 		return mid;
 	}
-//	public ManagerInfo(int eid, String ename, String email, String password) {
-//		super();
-//		this.eid = eid;
-//		this.ename = ename;
-//		this.email = email;
-//		this.password = password;
-//	}
-//	public ManagerInfo() {
-//		super();
-//		// TODO Auto-generated constructor stub
-//	}
+	public ManagerInfo() {
+		super();
+	}
+	
+	
+	public ManagerInfo(String mname, String email, String password) {
+		super();
+		this.mname = mname;
+		this.email = email;
+		this.password = password;
+	}
 	public void setMid(int mid) {
 		this.mid = mid;
 	}

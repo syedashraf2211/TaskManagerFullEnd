@@ -18,6 +18,7 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.ManagerInfo;
+import com.training.TaskManager.model.TaskDTO;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.service.EmployeeService;
 import com.training.TaskManager.service.ManagerService;
@@ -60,13 +61,6 @@ public class ManagerController
 	}
 	
 	
-	@RequestMapping("/mcreate")
-	public String createManager(@ModelAttribute ManagerInfo minfo)
-	{
-		mservice.saveOrUpdate(minfo);
-		return "mlogin";
-	}
-	
 	@RequestMapping("/tregister")
 	public String registerTask(Model m)
 	{
@@ -76,14 +70,14 @@ public class ManagerController
 	}
 	
 	@RequestMapping("/createtask")
-	public String createTask(@ModelAttribute TaskInfo tinfo,@RequestParam String Enddate,@RequestParam String email,@RequestParam String AssignedBy) throws Exception
+	public String createTask(@ModelAttribute TaskDTO tinfo,@RequestParam String Enddate,@RequestParam String email,@RequestParam String AssignedBy) throws Exception
 	{
 		tservice.saveOrUpdate(tinfo, Enddate,email,AssignedBy);
 		return "redirect:/mng/mvalidate";
 	}
 	
 	@RequestMapping(value = "/updatetask/{taskId:[\\d]+}")
-	public String updateTask(@PathVariable("taskId") int tid,Model m) throws Exception
+	public String updateTask(@PathVariable("taskId") int tid,Model m)
 	{
 		TaskInfo tinfo = tservice.getTask(tid);
 		m.addAttribute(TINFO,tinfo);
@@ -91,7 +85,7 @@ public class ManagerController
 	}
 	
 	@RequestMapping(value = "/deletetask/{taskId:[\\d]+}")
-	public String deleteTask(@PathVariable("taskId") int tid,Model m) throws Exception
+	public String deleteTask(@PathVariable("taskId") int tid,Model m)
 	{
 		tservice.deleteTask(tid);
 		

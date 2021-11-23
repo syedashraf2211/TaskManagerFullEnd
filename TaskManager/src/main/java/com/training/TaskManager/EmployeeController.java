@@ -18,6 +18,7 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.TaskDTO;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.service.EmployeeService;
 import com.training.TaskManager.service.TaskService;
@@ -66,14 +67,14 @@ public class EmployeeController
 	}
 	
 	@RequestMapping("/ecreatetask")
-	public String ecreateTask(@ModelAttribute TaskInfo tinfo) throws Exception
+	public String ecreateTask(@ModelAttribute TaskDTO tinfo)
 	{
 		tservice.updateProgress(tinfo);
 		return "redirect:/emp/evalidate";
 	}
 	
 	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}")
-	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
+	public String eupdateTask(@PathVariable("taskId") int tid,Model m)
 	{
 		TaskInfo tinfo = tservice.getTask(tid);
 		m.addAttribute(TINFO,tinfo);

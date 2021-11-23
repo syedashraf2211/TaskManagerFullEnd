@@ -18,7 +18,7 @@ import com.training.TaskManager.repository.TaskRepository;
 import com.training.TaskManager.security.EmployeePrincipal;
 
 @Service
-//@Component
+
 public class EmployeeService implements EmployeeServiceInterface{
 	
 	@Autowired
@@ -72,13 +72,4 @@ public class EmployeeService implements EmployeeServiceInterface{
 		
 	}
 
-
-	
-	/*
-	public boolean validateEmployee(String email,String password)
-	{
-		EmployeeInfo emp = findByEmail(email);
-		return (emp.getEmail().equals(email) && emp.getPassword().equals(password));
-		
-	}*/
 }

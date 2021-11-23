@@ -1,5 +1,6 @@
 package com.training.TaskManager.security;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Collections;
 
@@ -9,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.training.TaskManager.model.EmployeeInfo;
 
-public class EmployeePrincipal implements UserDetails {
+public class EmployeePrincipal implements UserDetails,Serializable {
 
 
 	private EmployeeInfo emp;
@@ -28,7 +29,7 @@ public class EmployeePrincipal implements UserDetails {
 
 	@Override
 	public String getPassword() {
-		// TODO Auto-generated method stub
+
 		return emp.getPassword();
 	}
 

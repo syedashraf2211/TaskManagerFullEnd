@@ -15,27 +15,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 @Configuration
 @Order(2)
 public class Config2 extends WebSecurityConfigurerAdapter {
-	/*
-	@Override
-	public void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication()
-			.withUser("user@gmail.com").password("{noop}password").roles("USER");
-	}
-	*/
-	/*
-	@Autowired
-	private MyUserDetailsService userdetailsservice;
-
-	@Bean
-	public AuthenticationProvider authProvider()
-	{
-		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-		provider.setUserDetailsService(userdetailsservice);
-		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
-		
-		return provider;
-	}
-	*/
+	
 	@Bean
 	public BCryptPasswordEncoder passwordEncoder()
 	{
