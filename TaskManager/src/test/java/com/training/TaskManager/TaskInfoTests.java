@@ -17,14 +17,14 @@ import com.training.TaskManager.repository.EmployeeRepository;
 import com.training.TaskManager.repository.ManagerRepository;
 import com.training.TaskManager.repository.TaskRepository;
 
-//@DataJpaTest
-//@AutoConfigureTestDatabase(replace = Replace.NONE)
+@DataJpaTest
+@AutoConfigureTestDatabase(replace = Replace.NONE)
 public class TaskInfoTests 
 {
 
 	
-	//@Autowired
-	//private TaskRepository taskrepo;
+	@Autowired
+	private TaskRepository taskrepo;
 	
 //	@Autowired
 //	private EmployeeRepository emprepo;
@@ -46,4 +46,11 @@ public class TaskInfoTests
 //		taskrepo.save(taskinfo);
 //		assertThat(taskrepo.count()).isGreaterThan(1);
 //	}
+	
+	@Test
+	public void testGetTask()
+	{
+		TaskInfo tinfo = taskrepo.getById(4);
+		assertThat(tinfo.getTaskName()).isEqualTo("Task2");
+	}
 }

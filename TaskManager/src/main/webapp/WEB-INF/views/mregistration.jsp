@@ -11,7 +11,7 @@
 <body>
 	<div class="center">
 		<h1>Manager Registration</h1>
-		<form method="post" action="mcreate">
+		<form method="post" action="/mcreate">
 			<div class="txt_field">
 				<input type="text" name="mname" required/>
 				<label>Name</label>
@@ -30,7 +30,7 @@
 			</div> 
 			<input type="submit" value="SUBMIT" onclick="Validate()"/>
 			<div class="signup_link">
-				<a href="mlogin">Already have an account? Login here</a>
+				<a href="/mng/mlogin">Already have an account? Login here</a>
 			</div>
 		</form>
 	</div>

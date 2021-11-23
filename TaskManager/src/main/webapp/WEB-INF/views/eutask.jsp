@@ -5,9 +5,9 @@
 <html>
 <head>
 	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Update Task</title>
 	<link rel="stylesheet" href="/ctask.css">
-	<link rel="stylesheet" href="css/mdb.min.css">
 	
 </head>
 <body style="background: linear-gradient(120deg,#2980b9, #2980b9)">
@@ -15,7 +15,7 @@
 	<div class="center">
 			
 			
-			<input type="button" class="close" value="&times;" onclick="window.location='/mvalidate'"/>	
+			<input type="button" class="close" value="&times;" onclick="window.location='/emp/evalidate'"/>	
 			<h1>UPDATE TASK</h1>
 
 			<form method="post" action="/emp/ecreatetask">

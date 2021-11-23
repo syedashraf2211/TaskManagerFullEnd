@@ -3,9 +3,11 @@ package com.training.TaskManager.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import com.training.TaskManager.model.ManagerDTO;
 import com.training.TaskManager.model.ManagerInfo;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.repository.ManagerRepository;
@@ -21,9 +23,18 @@ public class ManagerService implements ManagerServiceInterface{
 	private TaskRepository taskrepo;
 	
 	@Override
-	public void saveOrUpdate(ManagerInfo manager) 
+	public boolean saveOrUpdate(ManagerDTO manager) 
 	{
-		managerrepo.save(manager);
+		ManagerInfo minfo = findByEmail(manager.getEmail());
+		if(minfo != null)
+			return false;
+		String password = manager.getPassword();
+		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		String encodedpassword = passwordEncoder.encode(password);
+		manager.setPassword(encodedpassword);
+		ManagerInfo mnginfo = manager.toEntity(manager);
+		managerrepo.save(mnginfo);
+		return true;
 	}
 
 	@Override

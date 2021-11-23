@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.ManagerInfo;
+import com.training.TaskManager.model.TaskDTO;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.repository.TaskRepository;
 
@@ -27,9 +28,8 @@ public class TaskService implements TaskServiceInterface
 	TaskRepository trepo;
 	
 	@Override
-	public void saveOrUpdate(TaskInfo tinfo, String enddate,String email,String assignedby) throws Exception {
-		// TODO Auto-generated method stub
-		//System.out.println(enddate+" "+tinfo.getProgress());
+	public void saveOrUpdate(TaskDTO tinfo, String enddate,String email,String assignedby) throws Exception {
+
 		SimpleDateFormat formatter1=new SimpleDateFormat("yyyy-MM-dd");
 		Date date = formatter1.parse(enddate);
 		tinfo.setEndDate(date);
@@ -37,28 +37,28 @@ public class TaskService implements TaskServiceInterface
 		tinfo.setEmpinf(empinfo);
 		ManagerInfo mnginfo = mservice.findByEmail(assignedby);
 		tinfo.setMnginf(mnginfo);
-		mservice.addTask(tinfo,mnginfo);
-		eservice.addTask(tinfo,empinfo);
-		trepo.save(tinfo);
-		//System.out.println(eservice.findByEmail(email));
+		TaskInfo taskinfo = tinfo.toEntity(tinfo);
+		mservice.addTask(taskinfo,mnginfo);
+		eservice.addTask(taskinfo,empinfo);
+		trepo.save(taskinfo);
+		
 	}
 	
 	@Override
 	public List<TaskInfo> getAllTasks() {
-		// TODO Auto-generated method stub
+
 		return trepo.findAll();
 	}
 
 	@Override
 	public TaskInfo getTask(int tid) {
-		// TODO Auto-generated method stub
-		TaskInfo tinfo = trepo.getById(tid);
-		return tinfo;
+
+		return trepo.getById(tid);
 	}
 	
 	@Override
 	public void deleteTask(int id) {
-		// TODO Auto-generated method stub
+
 		TaskInfo tinfo = getTask(id);
 		
 		eservice.deleteTask(tinfo, tinfo.getEmpinf());
@@ -69,8 +69,8 @@ public class TaskService implements TaskServiceInterface
 	}
 
 	@Override
-	public void updateProgress(TaskInfo ut) {
-		// TODO Auto-generated method stub
+	public void updateProgress(TaskDTO ut) {
+
 		TaskInfo tinfo = getTask(ut.getTaskId());
 		tinfo.setProgress(ut.getProgress());
 		

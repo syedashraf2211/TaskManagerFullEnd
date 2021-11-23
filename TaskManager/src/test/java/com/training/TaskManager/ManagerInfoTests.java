@@ -17,11 +17,12 @@ import com.training.TaskManager.repository.ManagerRepository;
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 public class ManagerInfoTests 
 {
-	/*
+	
 	
 	@Autowired
 	ManagerRepository mrepo;
 	
+	/*
 	@Test
 	@Rollback(false)
 	public void testSave()
@@ -31,14 +32,14 @@ public class ManagerInfoTests
 		mrepo.save(manager);
 		assertThat(mrepo.count()).isGreaterThan(1);
 	}
+	*/
 	
+	@Test
+	public void testFindByEmail()
+	{
+		ManagerInfo manager = mrepo.findByEmail("manager@gmail.com");
+		assertThat(manager.getPassword()).isEqualTo("123");
+	}
 	
-//	@Test
-//	public void testFindByEmail()
-//	{
-//		ManagerInfo manager = mrepo.findByEmail("manager@gmail.com");
-//		assertThat(manager.getPassword()).isEqualTo("112344556");
-//	}
-	
-*/
+
 }

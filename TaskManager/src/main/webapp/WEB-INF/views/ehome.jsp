@@ -5,6 +5,7 @@
 <html>
 <head>
 	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Employee Home Page</title>
 	<link rel="stylesheet" href="/chome.css">
 </head>
@@ -17,7 +18,7 @@
 	      <i class="fa fa-caret-down"></i>
 	    </button>
 	    <div class="dropdown-content">
-	      <a href="/logout" >Logout</a>
+	      <a href="/emp/logout" >Logout</a>
 	    </div>
 	  </div>
 	</div>

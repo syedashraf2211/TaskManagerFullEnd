@@ -1,19 +1,34 @@
 package com.training.TaskManager;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.training.TaskManager.model.EmployeeDTO;
+import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.ManagerDTO;
+import com.training.TaskManager.model.ManagerInfo;
+import com.training.TaskManager.service.EmployeeService;
+import com.training.TaskManager.service.ManagerService;
 
 @Controller
 public class HomeController 
 {
+	@Autowired
+	EmployeeService eservice;
+	
+	@Autowired
+	ManagerService mservice;
 	
 	@RequestMapping("/")
 	public String home()
 	{
 		return "index";
 	}
-
-	@RequestMapping("/elogin")
+	
+	@RequestMapping("/emp/elogin")
 	public String employeeLogin()
 	{
 		return "elogin";
@@ -25,8 +40,16 @@ public class HomeController
 		return "eregistration";
 	}
 	
+	@RequestMapping("/ecreate")
+	public String createEmployee(@ModelAttribute EmployeeDTO einfo,Model m)
+	{
+		boolean status = eservice.saveOrUpdate(einfo);
+		if(!status)
+			m.addAttribute("message", "User Already Exist! Please login");
+		return "elogin";
+	}
 	
-	@RequestMapping("/mlogin")
+	@RequestMapping("/mng/mlogin")
 	public String managerLogin()
 	{
 		return "mlogin";
@@ -38,9 +61,12 @@ public class HomeController
 		return "mregistration";
 	}
 	
-	@RequestMapping("/logout")
-	public String Logout()
+	@RequestMapping("/mcreate")
+	public String createManager(@ModelAttribute ManagerDTO minfo,Model m)
 	{
-		return "redirect:/";
+		boolean status = mservice.saveOrUpdate(minfo);
+		if(!status)
+			m.addAttribute("message", "User Already Exist! Please login");
+		return "mlogin";
 	}
 }

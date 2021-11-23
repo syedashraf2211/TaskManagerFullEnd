@@ -14,8 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 
+import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
+import com.training.TaskManager.model.TaskDTO;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.service.EmployeeService;
 import com.training.TaskManager.service.TaskService;
@@ -31,20 +34,15 @@ public class EmployeeController
 	@Autowired
 	TaskService tservice;
 	
-	@RequestMapping("/elogin")
-	public String employeeLogin()
-	{
-		return "elogin";
-	}
+	final String TINFO = "tinfo";
 	
-	//@PreAuthorize("hasRole('EMPLOYEEee')")
+	
 	@RequestMapping("/evalidate")
 	public String validateEmployee(Model m)
 	{
-		//System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
 		String email = SecurityContextHolder.getContext().getAuthentication().getName();
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		m.addAttribute("empmail", email);
 		return "ehome";
 	}
@@ -53,36 +51,39 @@ public class EmployeeController
 	public String validateEmployee(@RequestParam String email,Model m)
 	{
 		List<TaskInfo> tinfo= tservice.getAllTasks();
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		m.addAttribute("empmail", email);
 		return "ehome";
 	}
 	
 	
-	
 	@RequestMapping("/ecreate")
-	public String createEmployee(@ModelAttribute EmployeeInfo einfo)
+	public String createEmployee(@ModelAttribute EmployeeDTO einfo,Model m)
 	{
-		//System.out.println(einfo.getEname());
-		eservice.saveOrUpdate(einfo);
+		boolean status = eservice.saveOrUpdate(einfo);
+		if(!status)
+			m.addAttribute("message", "User Already Exist! Please login");
 		return "elogin";
 	}
 	
 	@RequestMapping("/ecreatetask")
-	public String ecreateTask(@ModelAttribute TaskInfo tinfo) throws Exception
+	public String ecreateTask(@ModelAttribute TaskDTO tinfo)
 	{
-		System.out.println(tinfo.getProgress());
 		tservice.updateProgress(tinfo);
 		return "redirect:/emp/evalidate";
 	}
 	
-	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
-	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
+	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}")
+	public String eupdateTask(@PathVariable("taskId") int tid,Model m)
 	{
-		//System.out.println(tid);
-		
 		TaskInfo tinfo = tservice.getTask(tid);
-		m.addAttribute("tinfo",tinfo);
+		m.addAttribute(TINFO,tinfo);
 		return "eutask";
+	}
+	
+	@RequestMapping(value="/end")
+	public void endSession(SessionStatus status)
+	{
+		status.setComplete();
 	}
 }

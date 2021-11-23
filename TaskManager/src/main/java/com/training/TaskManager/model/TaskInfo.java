@@ -1,5 +1,6 @@
 package com.training.TaskManager.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.CascadeType;
@@ -14,7 +15,7 @@ import org.springframework.stereotype.Component;
 
 
 @Entity
-public class TaskInfo {
+public class TaskInfo implements Serializable{
 
 	@Id
 	@GeneratedValue
@@ -39,24 +40,22 @@ public class TaskInfo {
 	public void setEmpinf(EmployeeInfo empinf) {
 		this.empinf = empinf;
 	}
-/*
-	public TaskInfo(int taskId, String taskName, String description, int progress, Date startDate, Date endDate,
+
+	public TaskInfo(int tid,String taskName, String description, int progress,  Date endDate,
 			EmployeeInfo empinf, ManagerInfo mnginf) {
 		super();
-		TaskId = taskId;
+		TaskId = tid;
 		TaskName = taskName;
 		Description = description;
 		Progress = progress;
-		StartDate = startDate;
 		EndDate = endDate;
 		this.empinf = empinf;
 		this.mnginf = mnginf;
 	}
 	public TaskInfo() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
-	*/
+	
 	public ManagerInfo getMnginf() {
 		return mnginf;
 	}

@@ -1,5 +1,6 @@
 package com.training.TaskManager.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +12,7 @@ import javax.persistence.OneToOne;
 
 
 @Entity
-public class EmployeeInfo 
+public class EmployeeInfo implements Serializable
 {
 	@Id
 	@GeneratedValue
@@ -22,14 +23,22 @@ public class EmployeeInfo
 	private String password;
 	private String designation;
 
-	/*
-	@OneToOne(mappedBy = "TaskInfo")
-    private TaskInfo taskinfo;
-	*/
 	
 	@OneToMany(mappedBy = "empinf")
 	private List<TaskInfo> tasks = new ArrayList<>();
 	
+	public EmployeeInfo() {
+		super();
+	}
+
+	public EmployeeInfo(String ename, String email, String password, String designation) {
+		super();
+		this.ename = ename;
+		this.email = email;
+		this.password = password;
+		this.designation = designation;
+	}
+
 	public List<TaskInfo> getTasks() {
 		return tasks;
 	}
