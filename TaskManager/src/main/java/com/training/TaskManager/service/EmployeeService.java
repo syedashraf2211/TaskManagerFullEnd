@@ -10,6 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.repository.EmployeeRepository;
@@ -26,7 +27,7 @@ public class EmployeeService implements EmployeeServiceInterface{
 	
 	
 	@Override
-	public boolean saveOrUpdate(EmployeeInfo emp) {
+	public boolean saveOrUpdate(EmployeeDTO emp) {
 		
 		EmployeeInfo einfo = findByEmail(emp.getEmail());
 		if(einfo != null)
@@ -35,7 +36,8 @@ public class EmployeeService implements EmployeeServiceInterface{
 		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 		String encodedpassword = passwordEncoder.encode(password);
 		emp.setPassword(encodedpassword);
-		repo.save(emp);
+		EmployeeInfo empinfo = emp.toEntity(emp);
+		repo.save(empinfo);
 		return true;
 	}
 

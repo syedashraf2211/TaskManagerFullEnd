@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
+import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.TaskInfo;
 import com.training.TaskManager.service.EmployeeService;
@@ -34,17 +35,10 @@ public class EmployeeController
 	
 	final String TINFO = "tinfo";
 	
-//	@RequestMapping("/")
-//	public String employeeLogin()
-//	{
-//		return "elogin";
-//	}
-//	
 	
 	@RequestMapping("/evalidate")
 	public String validateEmployee(Model m)
 	{
-		//System.out.println(SecurityContextHolder.getContext().getAuthentication().getName());
 		String email = SecurityContextHolder.getContext().getAuthentication().getName();
 		List<TaskInfo> tinfo= tservice.getAllTasks();
 		m.addAttribute(TINFO,tinfo);
@@ -62,11 +56,9 @@ public class EmployeeController
 	}
 	
 	
-	
 	@RequestMapping("/ecreate")
-	public String createEmployee(@ModelAttribute EmployeeInfo einfo,Model m)
+	public String createEmployee(@ModelAttribute EmployeeDTO einfo,Model m)
 	{
-		//System.out.println(einfo.getEname());
 		boolean status = eservice.saveOrUpdate(einfo);
 		if(!status)
 			m.addAttribute("message", "User Already Exist! Please login");
@@ -76,12 +68,11 @@ public class EmployeeController
 	@RequestMapping("/ecreatetask")
 	public String ecreateTask(@ModelAttribute TaskInfo tinfo) throws Exception
 	{
-		System.out.println(tinfo.getProgress());
 		tservice.updateProgress(tinfo);
 		return "redirect:/emp/evalidate";
 	}
 	
-	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}",method = RequestMethod.GET)
+	@RequestMapping(value = "/eupdatetask/{taskId:[\\d]+}")
 	public String eupdateTask(@PathVariable("taskId") int tid,Model m) throws Exception
 	{
 		TaskInfo tinfo = tservice.getTask(tid);

@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.training.TaskManager.model.EmployeeDTO;
 import com.training.TaskManager.model.EmployeeInfo;
 import com.training.TaskManager.model.ManagerInfo;
 import com.training.TaskManager.service.EmployeeService;
@@ -39,15 +40,13 @@ public class HomeController
 	}
 	
 	@RequestMapping("/ecreate")
-	public String createEmployee(@ModelAttribute EmployeeInfo einfo,Model m)
+	public String createEmployee(@ModelAttribute EmployeeDTO einfo,Model m)
 	{
-		//System.out.println(einfo.getEname());
 		boolean status = eservice.saveOrUpdate(einfo);
 		if(!status)
 			m.addAttribute("message", "User Already Exist! Please login");
 		return "elogin";
 	}
-	
 	
 	@RequestMapping("/mng/mlogin")
 	public String managerLogin()
@@ -70,11 +69,4 @@ public class HomeController
 			m.addAttribute("message", "User Already Exist! Please login");
 		return "mlogin";
 	}
-	/*
-	@RequestMapping("/logout")
-	public String Logout()
-	{
-		return "redirect:/";
-	}
-	*/
 }
