@@ -10,7 +10,7 @@
 	<title>Manager Home Page</title>
 	
 	<link rel="stylesheet" href="/chome.css">
-	
+	<script src="https://kit.fontawesome.com/56cd219aa6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -56,8 +56,8 @@
 					      <td>${task.getEndDate()}</td>
 					      <td>${task.getEmpinf().getEmail()}</td>
 					      <td>${task.getProgress()}</td>
-					      <td> <button id="btn1" class="bi bi-pencil-square" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'">Update</button> </td>
-					      <td> <button id="btn1" class="bi bi-trash" onclick="window.location='deletetask/${task.getTaskId()}'">Delete</button> </td>
+					      <td> <button id="btn1" name="taskid" onclick="window.location='updatetask/${task.getTaskId()}'"><i class="fa fa-pen-square"></i></button> </td>
+					      <td> <button id="btn1"  onclick="window.location='deletetask/${task.getTaskId()}'"><i class="fas fa-trash"></i></button> </td>
 				    </tr>
 			   	</c:if>
 		    </c:forEach>

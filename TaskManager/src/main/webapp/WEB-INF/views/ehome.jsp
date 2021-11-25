@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Employee Home Page</title>
 	<link rel="stylesheet" href="/chome.css">
-	
+	<script src="https://kit.fontawesome.com/56cd219aa6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -48,7 +48,7 @@
 					      <td>${task.getEndDate()}</td>
 					      <td>${task.getMnginf().getEmail()}</td>
 					      <td>${task.getProgress()}</td>
-					      <td> <button id="btn1" class="bi bi-pencil-square" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'">Update</button> </td>
+					      <td> <button id="btn1" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'"><i class="fa fa-pen-square"></button> </td>
 				    </tr>
 			   	</c:if>
 		    </c:forEach>
