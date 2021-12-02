@@ -48,7 +48,7 @@
 					      <td>${task.getEndDate()}</td>
 					      <td>${task.getMnginf().getEmail()}</td>
 					      <td>${task.getProgress()}</td>
-					      <td> <button id="btn1" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'"><i class="fa fa-pen-square"></button> </td>
+					      <td> <button id="btn1" name="taskid" onclick="window.location='eupdatetask/${task.getTaskId()}'"><i class="fa fa-pen-square"></i></button> </td>
 				    </tr>
 			   	</c:if>
 		    </c:forEach>
